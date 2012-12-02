@@ -1,0 +1,779 @@
+'Stepping Up to Haskell'
+
+Eric Smith 
+@eric_s_smith
+https://github.com/ericssmith
+
+------------------------------
+#
+
+main = print "Hello"
+
+bash$ ghc -o hello Main.hs
+bash$ ls
+Main.hi Main.hs Main.o hello
+bash$ ./hello
+"Hello"
+
+-- Example of using compiler
+-- Create intermediate files in filesystem
+------------------------------
+#
+
+main = print "Hello"
+
+bash$ runghc Main.hs
+"Hello"
+bash$ ls
+Main.hs
+
+-- Compile without creating intermediate files
+-- Good for development when you pass in arguments (not shown here)
+------------------------------
+#
+
+main = print "Hello"
+
+bash$ ghci
+
+Prelude> :load Main
+*Main> main
+"Hello"
+
+-- Interactive interpreter (aka REPL) from the shell
+-- Load module with ':load' command 
+-- http://www.haskell.org/ghc/docs/7.4.2/html/users_guide/ghci-commands.html 
+------------------------------
+#
+
+main = print "Hello"
+
+*Main> main
+"Hello"
+
+-- In emacs, can open REPL into buffer with haskell-mode
+------------------------------
+#
+
+main = print (reverse "Hello")
+
+*Main> main
+"olleH"
+
+-- 'print' and 'reverse' are in Haskell's standard library, called 'the Prelude' 
+-- Note the parentheses are offsetting the reverse function, (ie not an argument list as in other languages)
+-- Reverse only gets applied to a single argument, the value that reverse evaluates to.
+------------------------------
+#
+
+main = print (topsy "Hello")
+
+topsy s = reverse s
+
+*Main> main
+"olleH"
+
+-- Simple example of creating a function
+-- Name, formal parameters, equals sign, body
+-- Returns whatever the expressions in body evaluate to.
+-- But what is this thing, really?
+------------------------------
+#
+
+*Main> (\s -> reverse s)
+
+-- Anonymous function, functional literal, lambda abstraction.
+-- '\' reminiscent of greek lambda (as in lambda calculus.
+-- 's' is the bound variable (ie, parameter)
+-- Expression after arrow is evaluated.
+------------------------------
+#
+
+#Main> (\s -> reverse s) "Hello"
+"olleH"
+
+-- Apply lambda abstraction to some argument.
+------------------------------
+#
+
+*Main> (\x -> x + 1) 3
+4
+
+-- Another example using arithmetic
+------------------------------
+#
+
+*Main> (\x -> (\y -> x + y) 3 4
+7
+
+-- Lambda abstractions actually only take one argument (ie, one bound variable)
+-- To simulate multiple arguments, use 'currying' 
+-- "... takes argument for x and RETURNS A FUNCTION that takes an argument for y and returns ... (eg x+y)"
+------------------------------
+#
+
+*Main> (\x y -> x + y) 3 4
+7
+
+-- Can use abbreviation that looks like multiple parameters. But it's a trick (ie, syntactic sugar)
+------------------------------
+#
+
+*Main> let plusOne = (\x -> x + 1)
+*Main> plusOne 3
+4
+
+-- In the REPL you can bind a name to the lambda expression with 'let' and equals sign. 
+-- And then apply it to an argument.
+------------------------------
+#
+
+*Main> let sum = (\x -> (\y -> x + y))
+*Main> sum 3 4
+7
+
+-- Can do the same for a curried function. 
+------------------------------
+#
+
+plusOne = (\x -> x + 1)
+
+*Main> plusOne 3
+4
+
+-- In a source file, you don't use a 'let'
+------------------------------
+#
+
+plusOne = (\x -> x + 1)
+plusOne' x = x + 1
+
+*Main> plusOne' 7
+8
+
+-- And the bound variable can be pulled to the left side with the name.
+-- Note that the parameter is not set off with parentheses or other syntactic 'noise'. 
+-- Function application is considered fundamental and gets the quiest possible syntax: a space. 
+-- Note prime  (or single quote) is just part of a new function name. It's not special. 
+-- Often used so in examples that are almost identical and you'd like very similar naming. 
+------------------------------
+#
+
+sum = (\x -> (\y -> x + y)) 
+sum' x y = x + y
+
+*Main> sum' 7 8
+15
+
+-- Ditto for curried functions (ie, multiple parameters.
+------------------------------
+#
+
+-- Main.hs
+
+module Main where
+
+import Topsy
+
+main = print (topsy "Hello")
+
+
+-- Topsy.hs
+
+module Topsy (topsy) where
+
+topsy s = reverse s
+
+-- Example of splitting code into two modules, in two different files. 
+-- Module name is capitalized. 
+-- Exported functions (default is all) are listed in parentheses. 
+------------------------------
+#
+
+main = print (turvy (topsy "Hello"))
+
+topsy s = reverse s
+turvy s = reverse s
+
+*Main> main
+"Hello"
+
+-- Unlike imperative languages, functions are not 'stacked up' vertically. 
+-- Instead, the value of one function becomes the argument for another, and so on. 
+------------------------------
+#
+
+main = (print . turvy . topsy) "Hello" 
+
+topsy s = reverse s
+turvy s = reverse s
+
+*Main> main
+"Hello"
+
+-- Functions can be composed, and then applied to an argument. 
+-- Function composition is also fundamental and gets quiet syntax: a period.
+------------------------------
+#
+
+main = spinAndPrint "Hello"
+
+topsy s = reverse s
+turvy s = reverse s
+
+spinAndPrint = print . turvy . topsy
+
+-- Composed functions can be bound to a name (see above for name binding of lambda abstractions).
+-- And then applied to an argument.
+------------------------------
+#
+
+data Move = Rock | Paper | Scissors
+
+-- Before looking at more functions, need to learn about types. 
+
+------------------------------
+#
+
+data Move = Rock | Paper | Scissors derving Show
+
+main = print Rock 
+
+*Main> main
+Rock
+
+------------------------------
+#
+
+data Move = Rock | Paper | Scissors deriving Show
+
+beats m = case m of 
+      	    Rock -> Paper
+	    Paper -> Scissors
+	    Scissors -> Rock
+
+main = print (beats Paper)
+
+*Main> main
+Scissors
+
+------------------------------
+#
+
+data Move = Rock | Paper | Scissors deriving Show
+
+beats Rock = Paper
+beats Paper = Scissors
+beats Scissors = Rock
+
+main = print (beats Paper)
+
+*Main> main
+Scissors
+
+------------------------------
+#
+
+data Char = 'a' | 'b' | ... | 'y' | 'z'
+data Int = -65532 | ... | -1 | 0 | 1 | ... | 65532
+
+------------------------------
+#
+
+data Move = Rock | Paper | Scissors deriving Show
+
+beats :: Move -> Move
+beats Rock = Paper
+beats Paper = Scissors
+beats Scissors = Rock
+
+main = print (beats Paper)
+
+------------------------------
+#
+
+data Season = Winter | Spring | Summer | Fall
+data Answer = Yes | No deriving Show
+
+eqSeason :: Season -> Season -> Answer
+eqSeason Winter Winter = Yes
+eqSeason Spring Spring = Yes
+eqSeason Summer Summer = Yes
+eqSeason Fall Fall = Yes
+eqSeason _ _ = No
+
+main = print (eqSeason Fall Winter)
+
+*Main> main
+No
+
+------------------------------
+#
+
+eqSeason :: Season -> (Season -> Answer)
+
+------------------------------
+#
+
+eq:: Season -> Season -> Answer
+Winter `eq` Winter = Yes
+Spring `eq` Spring = Yes
+Summer `eq` Summer = Yes
+Fall `eq` Fall = Yes
+_ `eq` _ = No
+
+main = print (Fall `eq` Winter)
+
+------------------------------
+#
+
+(===):: Season -> Season -> Answer
+Winter === Winter = Yes
+Spring === Spring = Yes
+Summer === Summer = Yes
+Fall === Fall = Yes
+_ === _ = No
+
+main = print (Fall === Winter)
+
+------------------------------
+#
+
+main = print $ Fall === Winter
+
+------------------------------
+#
+
+data Season = Winter | Spring | Summer | Fall
+data Day = Saturday | Sunday | Monday | Tuesday
+
+eqSeason Winter Winter = True
+eqSeason Summer Summer = True
+...
+
+eqDay Saturday Saturday = True
+eqDay Sunday Sunday = True
+...
+
+------------------------------
+#
+
+data Season = Winter | Spring | Summer | Fall
+
+class Eql a where
+  (===) :: a -> a -> Bool
+
+instance Eql Season where
+  Winter === Winter = True
+  Spring === Spring = True
+  Summer === Summer = True
+  Fall === Fall = True
+  _ === _ = False
+
+------------------------------
+#
+
+instance Eql Season where
+  x === y = case (x,y) where
+    	      (Winter, Winter) -> True
+	      (Spring, Spring) -> True
+	      (Summer, Summer) -> True
+	      (Fall, Fall) -> True
+	      (_,_)  -> False
+
+*Main> Winter === Winter
+True
+*Main> :t (===)
+(===) :: Eql a => a -> a -> Bool
+
+------------------------------
+#
+
+data Weekend = Saturday | Sunday
+
+instance Eql Weekend where
+  x === y = case (x,y) of
+    	      (Saturday, Saturday) -> True
+	      (Sunday, Sunday) -> True
+	      (_,_) -> False
+
+------------------------------
+#
+
+data Pair = Pair Char Int deriving Show
+
+swapArgs (Pair x _) (Pair _ b) = Pair x b
+
+main = print $ swapArgs (Pair 'a' 3) (Pair 'z' 42)
+
+*Main> main
+Pair 'a' 42
+
+------------------------------
+#
+
+data Pair a = Pair a a deriving Show
+
+first (Pair x _) = x
+second (Pair _ y) = y
+
+*Main> first $ Pair 42 7
+42
+
+------------------------------
+#
+
+data Option a = Error | Ok a deriving Show
+
+getEven x
+  | (x `mod` 2 == 0) = Ok x
+  | otherwise = Error
+
+checkNum x = case (getEven x) of 
+	       Ok a -> print a
+	       Error -> print "Not even"
+
+
+*Main> checkNum 4
+4
+*Main> checkNum 3
+"Not even"
+
+------------------------------
+#
+
+data Tuple2 a b = Tuple2 a b deriving Show
+
+swap (Tuple2 x _) (Tuple2 _ b) = Tuple2 x b
+
+*Main> swap (Tuple2 'a' 3) (Tuple2 'z' 42)
+Tuple2 'a' 42
+
+------------------------------
+#
+
+swap (x,_) (_,b) = (x,b)
+
+*Main> swap ('a',3) ('z',42)
+('a',42)
+
+------------------------------
+#
+
+data List a = Empty | Link a (List a) deriving Show
+
+*Main> Link 1 Empty
+Link 1 Empty
+*Main> Link 2 (Link 1 Empty)
+Link 2 (Link 1 Empty)
+
+------------------------------
+#
+
+data List a = Empty | Link a (List a)
+data List a = Empty | Cons a (List a)
+data List a = Empty | a : (List a)
+data [a] = Empty | a : [a]
+data [a] = [] | a : [a]
+
+*Main> []
+[]
+*Main> 1 : []
+[1]
+*Main> 2 : 1 : []
+[2,1]
+*Main> [2,1]
+[2,1]
+
+------------------------------
+#
+
+import Prelude hiding ((++))
+
+(++) :: [t] -> [t] -> [t]
+[] ++ ys = ys
+(x:xs) ++ ys = x : (xs ++ ys)
+
+*Main> [1,2,3] ++ [4,5]
+[1,2,3,4,5]
+
+------------------------------
+#
+
+1 : ([2,3] ++ [4,5])
+1 : (2 : ([3] ++ [4,5]))
+1 : (2 : (3 : ([] ++ [4,5])))
+1 : (2 : (3 : [4,5]))
+[1,2,3,4,5]
+
+------------------------------
+#
+
+import Prelude hiding (map)
+
+map :: (a -> b) -> [a] -> [b]
+map f [] = []
+map f (x:xs) = f x : map f xs
+
+*Main> map (\x -> x*x) [1,2,3]
+[1,4,9]
+
+------------------------------
+#
+
+Extra
+-- list comprehension
+-- foldr
+http://www.cs.nott.ac.uk/~gmh/chapter7.ppt
+
+------------------------------
+#
+
+main = print demoLet 
+
+demoLet = let m = "My "
+              d = "dog "
+              h = "has "
+              f = "fleas."
+          in m ++ d ++ h ++ f
+
+
+*Main> main
+"My dog has fleas."
+
+------------------------------
+#
+
+demoLet' = (\m d h f -> m ++ d ++ h ++ f) "My " "dog " "has " "fleas."
+
+demoLet'' = (\m -> (\d -> (\h -> (\f -> m ++ d ++ h ++ f))))
+              "My " "dog " "has " "fleas."
+
+------------------------------
+#
+
+cube x = x*x*x
+sine x = sin x
+
+*Main> sine (cube 3)
+0.956375928404503
+*Main> (sine . cube) 3
+0.956375928404503
+
+------------------------------
+#
+
+cube' x = (x*x*x, "Cube called. ")
+sine' x = (sin x, "Sine called. ")
+
+thenDo (gx,gs) f = let (fx,fs) = f gx
+       	       	   in (fx, (gs++fs))
+
+------------------------------
+#
+
+data Logger t = L t String deriving Show
+
+cube'' x = L (x*x*x) "Cube called. "
+sine'' x = L (sin x) "Sine called. "
+
+thenDo' (L gx gs) f = let (L fx fs) = f gx
+	      	      in (L fx (gs++fs))
+
+------------------------------
+#
+
+promoteType x = L x ""
+
+------------------------------
+#
+
+promoteType x = L x ""
+
+liftFunc f = promoteType . f
+
+
+*Main> (cube'' 3) `thenDo'` sine'' `thenDo'` (liftFunc round)
+L 1 "Cube called. Sine called. "
+
+------------------------------
+#
+
+*Main> :t thenDo'
+thenDo' :: Logger t -> (t -> Logger t1) -> Logger t1
+*Main> :t promoteType
+promoteType :: t -> Logger t
+
+------------------------------
+#
+
+data Option t = Error | Ok t deriving Show
+
+phonebook = [("Bob","999-9999"),
+             ("Fred","123-4567")]
+
+vehicle = [("999-9999","zzz-999"),
+           ("123-4567","abc-123")]
+
+tax = [("zzz-999","99.99"),
+       ("abc-123","123.45")]
+
+findMatch key [] = Error
+findMatch key ((x,y):xys)
+  | key == x = Ok y
+  | otherwise = findMatch key xys
+
+fromOk (Ok x) = x
+fromOk Error  = error "fromOk: Error"
+
+*Main> findMatch "Fred" phonebook
+Ok "123-4567"
+
+------------------------------
+#
+
+getTax name = 
+  case (findMatch name phonebook) of
+    Error -> Error
+    Ok phone -> case (findMatch phone vehicle) of
+                  Error -> Error
+                  Ok plate -> case (findMatch plate tax) of
+                                Error -> Error
+                                Ok amt -> Ok amt
+
+
+*Main> getTax "Fred"
+Ok "123.45"
+*Main> getTax "John"
+Error
+
+------------------------------
+#
+
+thenDo Error  _ = Error
+thenDo (Ok x) f = f x
+
+getTax' name = findMatch name phonebook `thenDo`
+                 (\phone -> findMatch phone vehicle) `thenDo`
+                   (\plate -> findMatch plate tax)
+
+*Main> getTax' "Fred"
+Ok "123.45"
+*Main> getTax' "John"
+Error
+
+------------------------------
+#
+
+*Main> :t thenDo
+thenDo :: Option t -> (t -> Option t1) -> Option t1
+
+------------------------------
+#
+
+getTax'' name = lookup name phonebook >>=
+                 (\phone -> lookup phone vehicle) >>=
+                   (\plate -> lookup plate tax)
+
+------------------------------
+#
+
+getTax''' name = do
+	       	 phone <- lookup name phonebook
+		 plate <- lookup phone vehicle
+		 lookup plate tax
+
+------------------------------
+#
+
+data Option t = Error | Ok t
+
+instance Monad Option where
+  Ok x >>= f = f x
+  Error >>= f = Error
+  return = Ok
+
+------------------------------
+#
+
+class Monad m where
+  (>>=) :: m a -> (a -> m b) -> m b
+  return :: a -> m a
+  fail :: String -> m a
+  (>>) :: String -> m a
+
+
+--Monad laws
+--http://www.haskell.org/haskellwiki/Monad_laws
+
+m >>= return     =  m
+return x >>= f   =  f x
+(m >>= f) >>= g  =  m >>= (\x -> f x >>= g)
+
+------------------------------
+#
+
+main :: IO ()
+main = do
+  let d = "Dave"
+  putStrLn $ "What are you doing, " ++ d ++ "?" 
+  x <- getLine
+  putStrLn $ "I'm going to spell '" ++ x ++ "' backwards now, " ++ d 
+  putStrLn $ reverse x
+
+------------------------------
+#
+
+*Main> :t putStrLn
+putStrLn :: String -> IO ()
+*Main> :t getLine
+getLine :: IO String
+*Main> :t getChar
+getChar :: IO Char
+*Main> :t putChar
+putChar :: Char -> IO ()
+
+------------------------------
+#
+
+main :: IO ()
+main = (\d -> 
+       putStrLn ("What are you doing, " ++ d) >>= \_ -> 
+       getLine >>= \x -> 
+       putStrLn ("I'm going to spell " ++ x ++ " backwards") >>= \_ -> 
+       putStrLn (reverse x)) "Dave"
+
+------------------------------
+#
+
+main :: IO ()
+main = (\d -> 
+       putStrLn ("What are you doing, " ++ d) >> 
+       getLine >>= \x -> 
+       putStrLn ("I'm going to spell " ++ x ++ " backwards") >>
+       putStrLn (reverse x)) "Dave"
+
+------------------------------
+#
+
+References:
+
+http://www.haskell.org
+
+-- Reserved operators
+http://www.imada.sdu.dk/Courses/DM22/haskell-operatorer.pdf
+
+-- All About Monads
+http://www.haskell.org/haskellwiki/All_About_Monads
+
+-- One-hour video introduction to Haskell
+http://www.youtube.com/watch?v=b9FagOVqxmI
+https://github.com/mzero/haskell-amuse-bouche
+
+-- Videos/Slides to accompany Hutton's "Programming in Haskell"
+http://www.cs.nott.ac.uk/~gmh/book.html
+
+
+	
+
+
