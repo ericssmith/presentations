@@ -1,0 +1,178 @@
+I couldn't lay my hands on this one:
+McCarthy, John. Letter to the Editor, CACM, Vol. 2, No. 8. 1959c
+
+AIM-001.pdf:
+
+John McCarthy, "An Algebraic Language for the Manipulation of Symbolic
+Expressions". MIT AI Lab Memo AIM-001. September 1958.
+
+AIM-002.pdf: "A Revised Verision of MAPLIST". Symbol Manipulating Language - Memo 2.
+
+recursive.pdf
+RECURSIVE FUNCTIONS OF SYMBOLIC EXPRESSIONS AND THEIR COMPUTATION BY MACHINE (Part I)
+This paper appeared in Communications of the ACM in April 1960.
+
+Next_700.pdf P. J. Landin. The Next 700 Programming Languages.
+Communications of the ACM Vol. 9, No. 3, March 1966.
+
+he quotes another: "1700 special programming languages used to
+communicate in over 700 applications areas".
+
+"Most programming languages are partly a way of expressing things in
+terms of other things and partly a basic set of given things."
+
+Weizenbaum-FUNARG_Problem_Explained-1968.pdf
+Weizenbaum Joseph. "The FUNARG Problem Explained". MIT, March 1968.
+
+Moses, Joel. "The Function of FUNCTION in LISP". MIT AI Lab. AI Lab
+Memo AIM-199, June 1970.
+
+Susman, Gerald Jay and Steele, Guy Lewis Jr. "Scheme, An Interpreter
+for Extended Lambda Calculus". MIT AI Lab. AI Lab Memo AIM-349,
+December 1975.
+
+Guy Lewis Steele, Jr. and Gerald Jay Sussman. "Lambda: The Ultimate
+Imperative". MIT AI Lab. AI Lab Memo AIM-353. March 1976.
+
+Guy Lewis Steele, Jr. "Lambda: The Ultimate Declarative". MIT AI Lab.
+AI Lab Memo AIM-379. November 1976.
+
+In 1976, we wrote two more papers that explored programming language semantics using
+Scheme as a framework. Lambda: The Ultimate Imperative drew on earlier work by Peter
+Landin, John Reynolds, and others to demonstrate how a wide variety of control structures
+could be modeled in Scheme. Lambda: The Ultimate Declarative discussed lambda
+as a renaming construct and related object-oriented programming generally and actors
+specifically to closures. These ideas in turn suggested a set of techniques for constructing
+a practical compiler for Scheme. Steele then wrote the first Scheme compiler as part of the
+work for his master’s degree.
+
+Steele, Guy Lewis Jr. Compiler Optimization Based on Viewing LAMBDA as
+Rename plus Goto. S.M. thesis. MIT (Cambridge, May 1977).
+
+Carl Hewitt. "Viewing Control Structures as Patterns of Passing Messages".
+MIT AI Lab, AI Lab Memo AIM-410. December 1976.
+
+Guy Lewis Steele, Jr.. "Debunking the 'Expensive Procedure Call' Myth,
+or, Procedure Call Implementations Considered Harmful, or, Lambda: The
+Ultimate GOTO". MIT AI Lab. AI Lab Memo AIM-443. October 1977.
+
+Steele, Guy Lewis Jr. and Sussman, Gerald Jay. The Revised Report on
+Scheme a Dialect of Lisp. AI Memo No. 452, MIT AI Lab (Cambridge,
+January 1978).
+
+Guy Lewis Steele, Jr. and Gerald Jay Sussman. "The Art of the
+Interpreter of, the Modularity Complex (Parts Zero, One, and Two)".
+MIT AI Lab. AI Lab Memo AIM-453. May 1978.
+
+lisp.ps
+John McCarthy. "History of Lisp". Stanford University AI Lab. February
+1979.
+
+"At the time, it seemed dubious to regard the latter operation as a
+function, since its value depended on the contents of memory at the
+time the operation was performed, so it didn't act like a proper
+mathematical function. However, the advantages of treating it
+grammatically as a function so that it could be composed were also
+apparent."
+
+AIM-848.pdf: William Clinger, editor. "The Revised Revised Report on
+Scheme; or, An UnCommon Lisp." AI Memo No. 848, Artificial
+Intelligence Laboratory, Massachusetts Institute of Technology, August
+1985, 76 pages.
+
+HOSC-11-4-pp399-404.pdf
+Gerald Jay Sussman and Guy L. Steele, Jr. "The First Report on Scheme
+Revisited". Higher-Order and Symbolic Computation 11 (4): 399–404.
+December 1998.
+
+this one has a good paragraph about actors, and later mistakes in the
+design, including some that Hewitt got right.
+
+In this process we learned some great lessons. The λ-calculus can be
+seen as a universal glue by which compound constructs can be built
+inductively from simpler ones and a set of primitives. In particular,
+if our primitives are functions, then our constructs are functions; if
+our primitives are relations, then our constructs are relations; if
+our primitives are actors, then our constructs are actors. The essence
+of the matter is that the λ-calculus provides a way of abstracting
+entities of any particular type and then combining such abstractions
+with other entities to make new entities of that same type, which are
+instances of the abstractions. This became apparent to us in, for
+example, the development of constraint languages. A λ-expression (or
+its “value”) may be a function (if its application yields a value),
+but it is more general and more fruitful to regard it as an
+abstraction. Similarly, a combination is not always a “function call”;
+it is more general simply to speak of instantiating an abstraction.
+Given the right primitives, the λ-calculus can serve as a foundation
+for the abstraction and instantiation of virtually any kind of complex
+conceptual structure.
+
+We also were struck by the great importance of names as a means of reference.
+
+www.cs.indiana.edu/hyplan/dfried/mex.pdf
+Daniel Friedman. "The Role of the Study of Programming Languages in
+the Education of a Programmer". Talk at UNAM, April 2001.
+
+"The very first Scheme paper changed my research life overnight and it
+got the lambdas right."
+
+"Guy Steele, one of the two authors of ... a co-author of 'The Java
+Language Specification" ... was promised back in 1997 that this flaw
+would be fixed" (it would properly handle tail calls)"
+
+ooo.pdf
+Daniel Friedman. "Object-Oriented Style". Invited Talk at International
+LISP Conference, October 2003.
+
+One of the advantages of well-defined programming languages is that
+built-in idioms are abstracted away. But, this is also one of the
+disadvantages, especially for those who want to com- pletely
+understand the language.
+
+Let us revisit our goals. Most conventional languages use
+implementation technology that makes writing recursive programs a
+risky enterprise. Now, object-oriented programming has inadvertently
+made recursion the natural way to write programs. But still the
+implementation technology does not yet allow the recursion to be
+exploited, since most (object- oriented) languages do not support
+tail-call optimization.
+
+JAOO-SchemeHistory-2006public.pdf
+Guy Steele. "The History of Scheme". Sun Microsystem Laboratories,
+October 2006
+
+http://web.archive.org/web/20050405213907/http://www8.informatik.uni-erlangen.de/html/lisp/histlit1.html
+
+http://web.archive.org/web/20061029131004/http://www8.informatik.uni-erlangen.de/html/lisp/mcc91.html
+
+
+http://letitcrash.com/post/20964174345/carl-hewitt-explains-the-essence-of-the-actor
+
+http://en.wikipedia.org/wiki/%3F:#.3F:_in_style_guidelines
+http://en.wikipedia.org/wiki/History_of_Python
+
+http://docs.python.org/release/2.5.1/whatsnew/pep-308.html
+Guido van Rossum, Raymond D. Hettinger. What's New in Python 2.5: PEP
+308: Conditional Expressions.
+
+http://golang.org/doc/faq#Does_Go_have_a_ternary_form
+
+guy steele on funarg problem:
+http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg03278.html
+Matthias Felleisen:
+https://www.cs.utah.edu/plt/mailarch/plt-scheme-2001/msg00236.html
+and:
+https://www.cs.utah.edu/plt/mailarch/plt-scheme-2001/msg00237.html"
+"BCPL, B and C differ syntactically in many details, but broadly they
+ are similar.  Programs consist of a sequence of global definitions
+ and function (procedure) declarations.  Procedures can be nested in
+ BCPL, but may not refer to non-static objects defined in containing
+ procedures.  B and C avoid this restriction by imposing a more severe
+ one: no nested procedures at all."
+
+Matthias Felleisen:
+http://www.ccs.neu.edu/home/matthias/Thoughts/Racket_is____.html
+
+Covers a lot about languages in Racket.
+
+Sam Tobin-Hochstadt, Matthias Felleisen. "Logical Types for Untyped Languages"
