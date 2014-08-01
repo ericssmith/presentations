@@ -1,0 +1,256 @@
+“ Playing Landin’s Game” script
+
+——-
+Slide 2
+
+According to Don Knuth, this is the first published complaint about the goto statement. It’s by Peter Naur, in the journal BIT, in 1963. He says, “Now why is goto so ugly? Because it’s inelegant and uneconomical. A goto statement is about the the most empty construction conceivable.”
+
+“Executing it is like being told … it’s not me … it’s my colleague”
+
+This notion of separation is an underlying theme in my talk. I’m going to claim that in order to understand what a program should be doing, and what it actually is doing, we would like to fuse together what we’re trying to express and how we express it. 
+
+——-
+Slide 3
+
+There’s a number of familiar concepts that I think encourage this separation between the “what” and the “how” in programming languages. In the time that I have, I’m just going to pick on this list on the left, which are all control structures. But I will throw out there, that I think these guys on the right are also suspect.  
+
+The sad part of my tale is that all of this was pretty well understood in the 1960s and 70s. This talk is going to be full of quotes from the papers of that period. 
+
+———
+Slide 4
+
+In that Peter Naur article in BIT, he continues that “if you look carefully, you will find that often a goto statement that looks back is really just a concealed “for” statement”.  Which he thinks is better. This raises the question of whether goto is even really needed. 
+
+
+————
+Slide 5
+
+The attack on the goto statement reached its high point in 1968 when Edsger Djikstra wrote his famous “GOTO considered harmful” letter to the CACM. In that brief essay, he has only two footnotes. One of these is to a 1966 paper by Corrado Boehm and Giuseppe Jacopini called “Flow Diagrams, Turing Machines, and Languages with Only Two Formation Rules”. The first part of the paper is by Jacopini and he concludes his bit with this line: 
+
+“It is thus proved possible to describe a program by means of a formula containing the flow diagrams of phi, pi, and delta. 
+
+That is, iteration, composition, and alternation. What you don’t need is an unconditional jump. And although there was a lot of debate, the fact that this was apparently proven sealed the fate of “goto”, which was to wither away and eventually die off. 
+
+
+—————-
+Slide 6
+
+In that same year, 1966, Peter Landin, in his paper “The Next 700 Programming Languages” reported that Algol programmers had been getting rid of goto anyway. In section 10 of the paper, titled Explicit Sequencing, he says …
+
+There is a game sometimes played with ALGOL 60 programs--rewriting them so as to avoid using labels and go to statements. It is part of a more embracing game -- reducing the extent to which the program conveys its information by explicit sequencing. Roughly speaking this amounts to using fewer and larger statements. The game's significance lies in that it frequently produces a more "transparent" program--easier to understand, debug, modify and incorporate into a larger program.
+
+The author does not argue the case against explicit sequencing here. Instead he takes as point of departure the observation that the user of any programming language is frequently presented with a choice between using explicit sequencing or some alternative feature of the language
+
+
+
+—————-
+Slide 7
+
+In order to get a handle on what Landin meant by “explicit sequencing”, I’ve pulled out a quote by Christopher Strachey, from “Fundamental Concepts in Programming Languages”. 
+
+He says …  “programming languages came under pressure to allow mathematical expressions as well as elementary commands.” He gives an example of an ordinary algebraic expression, with the result being assigned to a variable. And he compares it with a sequence of assembly language instructions. 
+
+There is an ordering in the precedence rules of the algebraic expression, but it’s implicit in the syntax. Function composition would also be an example of implicit sequencing. 
+
+But the stepwise execution of the instructions of a Von Neumann computer is certainly explicit. 
+
+
+—————
+Slide 8
+And according to John Backus, in his Turing Award lecture of 1977, programming languages in widespread use up to that time, and indeed up to today, are just a thin layer of abstraction on the Von Neumann architecture. He calls them “Von Neumann programming languages” and says they “ use variables to imitate storage cells; control statements elaborate its jump and test instructions; and assignment imitates the fetching, storing, and arithmetic” instructions. 
+
+I would add to that list that our notion of basic types is also closely tied to the Von Neumann machine. 
+
+Now what Backus was mainly worried about is that if we kept writing programs like this, we would never get past the inherent limitations of this architecture. 
+
+But he also thought these languages which are so tied to this machine just lead to bloated and defective programs. 
+
+
+—————
+Slide 9
+
+Before we get back to Landin’s paper, I’d like to give a brief outline of his career. The quotes here are from Landin himself. 
+
+Landin learned the Lambda Calculus in a course at Cambridge taught by a fellow who had been a student of Alonzo Church. 
+
+His first exposure to a computer was in 1954 watching the EDSAC stumble through a Runge-Kutta. And he decided that wasn’t for him 
+
+Later, he got a job doing statistical analysis on a Hollerith Tabulating Machine. On the thermal properties of North sea Herring. And then moved on to English Electric, which was doing work for the National Physical Laboratory on the next generation of the Pilot Ace. Which I believe was the machine that Alan Turing had worked on. Landin tried doing beta-reduction on this new machine. 
+
+In this same period, he became aware of LISP. And was also involved in the definition of Algol. 
+
+In 1960, he was hired by Christopher Strachey to debug programs. But then was set to work creating a compiler for existing Mercury Autocode programs to run on a new Ferranti computer. 
+
+Landin says that he was “vaguely inspired by LISP”. However he tried to implement the compiler in the lambda calculus, because as he said “it was the only thing I knew”. 
+
+
+—————
+Slide 10
+
+This work is what led to the SECD machine, described in the 1964 paper “The Mechanical Evaluation of Expressions”. This was the first real abstract machine, and it was designed to evaluate lambda expressions on top of a Von Neumann computer. 
+Landin was aware of R.C Gilmore’s attempt to create an abstract machine for LISP. And he thought it exposed LISP’s “ramshackle semantics”. I’m not sure a lot of people realize that the use of lambda in LISP for nameless functions was merely borrowed from Church. It doesn’t have anything to do with the lambda calculus. McCarthy admitted that he didn’t understand Church’s book. And LISP wasn’t actually generally higher-order. It had special functions that allowed you to pass other functions as arguments. 
+
+Landin said that he worked on “putting symmetry between the treatment of functions  and the treatment of arguments’. “It wasn’t well understood at the time that functions could be a data item”. 
+It was in this period, that he and Strachey kickstarted the idea of semantics of programming languages using the lambda calculus as a way of stating the equivalence among program components. 
+
+In 1965, he published “ A Correspondence Between ALGOL 60 and Church’s Lambda Notation”. 
+
+And in 1966, he followed that up with the “700 Languages” paper in which he proposed a language core called ISWIM, that could be extended for use in particular problem domains. The idea that you could use the lambda calculus to state precisely what some piece of programming meant was where ISWIM got it’s name. It stands for “If You See What I Mean”. 
+
+
+——————
+Slide 11
+
+But Landin didn’t use the lambda calculus in its raw form. He provided a notation that was more like normal math. In particular he used “where” and “let” as equivalent ways of expressing the application of a lambda term. And these could be nested to form what he called “applicative expressions”. 
+
+
+—————
+Slide 12
+
+To try to get a sense of why understanding the equivalence in programming components matters, let’s take a look at what it is we’re trying to do. We have a set of some potential inputs, and a set of desired outputs. And we’re trying to define the relation between them so that we can compute an output given some particular input. Sounds simple enough. 
+
+
+—————-
+Slide 13
+
+But there are some challenges. Some of these were brought up by Djikstra in his address to the NATO Software Engineering Conference of 1969. This is where the term “software crisis” was coined. 
+
+He says …“My real concern is with programs that are large due to the complexity of their task”
+
+“If a large program is a composition of N program components, the confidence level of the individual components must be exceptionally high if N is very large.”
+
+In other words, if you have only 99% confidence in each of 100 components in a program, your chances are far worse than a coin toss that the program is actually doing what you think it ought to. 
+
+He goes on … “An assertion of program correctness is an assertion about the net effects of the computations that may be evoked”
+
+“Demonstration by sampling is completely out of the question”. “The number of inputs, that is, the number of different computations for which the assertions claim to hold is … fantastically high”. 
+
+
+————-
+Slide 14
+
+I want to pause to consider this last point. I said before that we wanted to understand the properties of the domain. What do we know about the possible input values? 
+
+At first, I thought I understood what a palindrome was. I thought that if I fed the program a sequence of latin characters, which can be stored in the machine within 8 bits, then I could just reverse the sequence and see if those two matched. But isn’t this Chinese example a palindrome? The trouble with types in our Von Neumann programming languages is that there isn’t sufficient abstraction. You just keep feeding the program all the input values you can think of until it chokes. We don’t have a good way of saying what we mean. 
+
+And what about capital letters and punctuation? If you search on Google, this is certainly a palindrome. And again, we extend the control flow to handle the more precisely defined domain since the type system isn’t really up to the job. 
+
+The definition of the domain is pushed into the control flow, which is represented by IF statements and loops, which are themselves containers for sequences of statements. And as we’ll see in moment, the more of this you have, the farther apart the syntax and the semantics become. 
+
+The meaning of the program and its verification is being spread out and obfuscated by this. 
+
+
+—————-
+Slide 15
+
+Now going back to Djikstra.
+
+He says “Proof of program correctness should only depend upon the text”
+
+And this is why you want what you’re saying and how you’re saying it, to be in the same place. 
+
+And lastly, Djikstra wonders “for what program structures can we give correctness proofs without undue labor, even if the programs get large? …. how do we make, for a given task, such a well-structured program?”
+
+
+—————-
+Slide 16
+
+And this takes us back to Landin and “The Next 700 Programming Languages”. What Landin is after is “saying what you mean”. And you get that by choosing features which correspond better to more precisely-stated semantics. 
+
+He says “the word denotative seems more appropriate than nonprocedural, declarative, or functional. The antithesis of denotative is imperative. Effectively ‘denotative’ means can be mapped into ISWIM, given appropriate primitives. 
+
+—————
+Slide 17
+
+Landin goes on to give  an example how what this might look like. 
+
+Replace assignment with a where clause.
+Replace procedures with type procedures — meaning they return a value. 
+Replace procedure calls with returning into a variable. 
+
+And fix up your conditional statements. 
+
+
+—————
+Slide 18
+
+We’re going to take a look at the conditional statement as well.  Here’s a pretty typical looking nested if statement. It’s written using the imperative features of Scala, but it should be recognizable to everyone. The only thing to know about Scala here is that the types of the function arguments come after the parameters, and the return type is at the end. 
+
+I don’t show a bunch of statements within the branches of the conditional, but you can imagine such as thing. 
+
+
+—————
+Slide 19
+
+The first thing to point out here is that if you down in the nesting, you’re going to rely on the other parts of the code that are separated by some distance.  So we’re going to try to fix this up. 
+
+The first thing to go will be this mutable variable that’s collecting the relevant result to pass out of the function. 
+
+
+—————
+Slide 20 
+
+And we’re going to stick in returns for each branch of the conditional. The idea that you have a single exit out of procedure goes back to those flow diagrams of  Bohm and Jacopini. And it became part of the dogma of structured programming. 
+
+But LISP had conditional expressions back in the 1950s. And so does Scala. So we can just take out those returns.
+
+—————
+Slide 21
+
+Note that I have a comment not to do anything under the conditional expression, just get out. 
+
+Doing this will be keep the complexity down on the function resulting from the various branches of the conditional. 
+
+—————
+Slide 22
+
+But we still have problems. 
+
+This branch down here is still semantically dependent on this bit up here. 
+
+And using a String to represent the gender is kind of meaningless and error-prone. This is an example, I think, of the problem of types being limited by the Von Neumann machine. String has no meaning. 
+
+—————-
+Slide 23
+
+Fortunately, Rod Burstall, back in 1968 made an extension to ISWIM for a paper called “Proving Properties of programs using structural induction” that’s going to help us out.  And that is, we can replace the if/else nesting with case expressions. 
+
+Now, I know you’ll let me handwave over this syntax. But I want to point something out here. That conditional expression is not a predicate on a basic Von Neumann type. It’s a data object with  construction and deconstruction functions. 
+
+LISP had conditional expressions in 1958 and ISWIM had pattern matching on data structures in 1968. Yet many languages today don’t have these basic tools. 
+
+
+—————
+Slide 24
+
+In that same paper, Burstall points out that Landin had defined data structures as recursive discriminated unions back in 1964. Here is the original. 
+
+
+————
+Slide 25
+
+Scala has algebraic data types as well as case analysis, but its syntax would require too much explanation for the time we have. So I’m going to jump right to Haskell. 
+
+Here we have gotten rid of that meaningless string  and replaced it with an enumerated type that encodes the Gender with a bit more conviction. 
+
+And the replacing the conditional with pattern matching gets the syntax and what we are trying to say in the same place. 
+
+—————
+Slide 26
+
+For one last trick, back in 1977, Burstall worked with John Darlington on NPL, which defined functions using pattern matching. And Haskell has this as well. 
+
+We could keep going, I think. But you get the point. Using various language features, we are able to tighten up the syntax and make the meaning more clear. 
+
+—————-
+Slide 27
+Now this game is even more straight-forward with a loop. Having to count from 0 to some number is irrelevant to the notion of doing something to every element in a collection. In this case, to check if it’s Odd. It’s completely incidental. 
+
+
+—————
+Slide 28
+
+Using recursion and a predicate function as an argument, we not only get a general solution. We also don’t have any incidental data structures to worry about. 
+
+—————
+
