@@ -25,6 +25,19 @@ https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored program computer (in which data and instructions are stored in same memory)*
 
 
+
+### - ENIAC
+
+http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
+
+
+
+### - Presper Eckert & John Mauchly
+
+http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
+
+
+
 ### - Max proper factor
 
 ```
@@ -47,8 +60,3 @@ fun main(args: Array<String>) {
     }
 }
 ```
-
-
-### - ENIAC
-
-http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
