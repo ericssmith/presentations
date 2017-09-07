@@ -36,6 +36,11 @@ http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
 
 http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
 
+### - First successful program
+
+http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
+
+*Highest proper factor*
 
 
 ### - Max proper factor
