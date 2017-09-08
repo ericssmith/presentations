@@ -103,3 +103,11 @@ fun main(args: Array<String>) {
 #### But is this correct?
 
 * * *
+
+### - Robert W Floyd, In Memoriam by Donald Knuth
+
+https://youtu.be/OJsMXu3EPCw?t=29m43s
+
+http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
+
+*The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
