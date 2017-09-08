@@ -3,6 +3,16 @@
 http://www.etymonline.com/index.php?term=coherent
 
 
+### - Go To Statement Considered Harmful
+
+https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
+
+*Originally titled "A Case Against the Go To Statement"
+
+https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
+
+
+
 ### - JDK download
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -36,14 +46,14 @@ http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
 
 http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
 
-### - First successful program
+### - First successful program (Manchester SSEM)
 
 http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 
-*Highest proper factor*
+*Highest proper factor using subtraction instead of division*
 
 
-### - Max proper factor
+### - Highest proper factor
 
 ```
 fun main(args: Array<String>) {
@@ -51,7 +61,7 @@ fun main(args: Array<String>) {
     var remainder = input  // will count down in inner loop;
     var factor = input - 1 // divisor; why not just call it that? How is that different than properFactor?
 
-    while (factor > 2) { // smallest possible proper properFactor
+    while (factor > 1) { // smallest possible proper properFactor
 	// Check if proper factor
 	while (remainder >= 0) {
 	    if (remainder == 0) { // divides evenly; output & get out
