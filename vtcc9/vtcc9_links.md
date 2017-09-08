@@ -178,6 +178,12 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
 *We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process.* (p.4)
 
-*We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required reqion of thef selectron memory. This schematic is the *flow diagram* of C* (p.4)
+*We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C* (p.4)
+
+* * *
+
+### - Assigning Meanings to Programs
+
+https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 * * *
