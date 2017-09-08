@@ -167,3 +167,17 @@ http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
 http://www.rutherfordjournal.org/images/cope2.jpg
 
 * * *
+
+### - Planning and Coding of Problems for an Electronic Computing Instrument
+
+https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
+
+*Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ...* (p.2)
+
+*Our problem is then to find simple, step-by-step methods, by which these difficulties can be overcome. Since coding is not a static process of translation, but rather the technique of providing a dynamic background to control the automatic evolution of a meaning, it has to be viewed as a logical problem and one that represents a new branch of formal logics.* (p.2)
+
+*We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process.* (p.4)
+
+*We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required reqion of thef selectron memory. This schematic is the *flow diagram* of C* (p.4)
+
+* * *
