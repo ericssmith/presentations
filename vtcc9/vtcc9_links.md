@@ -3,7 +3,6 @@
 http://www.etymonline.com/index.php?term=coherent
 
 
-
 ### - Go To Statement Considered Harmful
 
 https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
@@ -11,7 +10,6 @@ https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-s
 *Originally titled "A Case Against the Go To Statement"*
 
 https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
-
 
 
 
@@ -37,7 +35,6 @@ https://www.jetbrains.com/idea/download
 https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif
 
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored program computer (in which data and instructions are stored in same memory)*
-
 
 
 
