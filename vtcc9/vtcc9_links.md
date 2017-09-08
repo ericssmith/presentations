@@ -2,6 +2,7 @@
 
 http://www.etymonline.com/index.php?term=coherent
 
+* * *
 
 ### - Go To Statement Considered Harmful
 
@@ -11,6 +12,7 @@ https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-s
 
 https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
 
+* * *
 
 
 ### - JDK download
@@ -19,7 +21,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 *You have to hit checkbox for "Accept License Agreement"*
 
-
+* * *
 
 ### - Intellij download
 
