@@ -49,6 +49,8 @@ dependencies {
 }
 ```
 
+http://pholser.github.io/junit-quickcheck/site/0.7/
+
 * * *
 
 
@@ -56,11 +58,11 @@ dependencies {
 
 https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif
 
-*June 21, 1948 - Program runs successfully on first binary, digital, electronic stored program computer (in which data and instructions are stored in same memory)*
+*June 21, 1948 - Program runs successfully on first binary, digital, electronic stored-program computer (in which data and instructions are stored in same memory)*
 
 * * *
 
-### - First successful program (Manchester SSEM)
+### - First successful "stored" program (Manchester SSEM)
 
 http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 
@@ -78,8 +80,8 @@ fun main(args: Array<String>) {
     while (factor > 1) {
 	while (remainder >= 0) {
 	    if (remainder == 0) {
-		println(factor)
-		return
+		println(factor) // Setting state of environment
+		return          // GOTO
 	    }
 	    remainder = remainder - factor
 	}
@@ -88,5 +90,7 @@ fun main(args: Array<String>) {
     }
 }
 ```
+
+#### Is this correct?
 
 * * *
