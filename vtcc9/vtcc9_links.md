@@ -118,6 +118,18 @@ http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
 
 * * *
 
+### - Domain, Co-domain, Range
+
+https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG
+
+* * *
+
+### - Function (extensional)
+
+https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png
+
+* * *
+
 ### - ENIAC
 
 http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
