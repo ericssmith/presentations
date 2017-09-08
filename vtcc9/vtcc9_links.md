@@ -118,15 +118,15 @@ http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
 
 * * *
 
-### - Domain, Co-domain, Range
-
-https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG
-
-* * *
-
 ### - Function (extensional)
 
 https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png
+
+* * *
+
+### - Domain, Co-domain, Range
+
+https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG
 
 * * *
 
@@ -141,5 +141,14 @@ http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
 
 http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
 
+* * *
+
+### - First Draft of a Report on the EDVAC
+
+http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf
+
+*Herman Goldstine & John Von Neumann*
+
+http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
 
 * * *
