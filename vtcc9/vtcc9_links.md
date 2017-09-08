@@ -36,6 +36,21 @@ https://www.jetbrains.com/idea/download
 
 * * *
 
+### - Kotlin dependencies
+
+```
+// build.gradle
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'com.pholser:junit-quickcheck-core:0.7'
+    compile 'com.pholser:junit-quickcheck-generators:0.7'
+}
+```
+
+* * *
+
 
 ### - Manchester Small-Scale Experimental Machine
 
