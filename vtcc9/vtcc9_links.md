@@ -94,12 +94,12 @@ fun main(args: Array<String>) {
 - No annotations of type
 - val vs var
 - destructive assignment
-- distance from declaration
+- going to destroy it elsewhere
 - 'remainder' is not remainder at first; naming misleads
 - nested println modifies state in the environment, not in the program
 - nested return is a jump (ie GO TO)
-- nesting signals a dependency gap
+- command nesting leads to dependency gap that will be jumped over
 
-#### Is this correct?
+#### But is this correct?
 
 * * *
