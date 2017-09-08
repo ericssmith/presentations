@@ -7,7 +7,7 @@ http://www.etymonline.com/index.php?term=coherent
 
 https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
 
-*Originally titled "A Case Against the Go To Statement"
+*Originally titled "A Case Against the Go To Statement"*
 
 https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
 
