@@ -75,6 +75,9 @@ http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 * * *
 
 ### - Highest proper factor (#1)
+
+#### But is it correct?
+
 ```
 fun main(args: Array<String>) {
     val input = 12
@@ -104,7 +107,7 @@ fun main(args: Array<String>) {
 - nested return is a jump (ie GO TO)
 - command nesting leads to dependency gap that will be jumped over
 
-#### But is this correct?
+
 
 * * *
 
@@ -160,6 +163,7 @@ http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-
 http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
 
 *Max Newman*
+
 http://www.rutherfordjournal.org/images/cope2.jpg
 
 * * *
