@@ -141,14 +141,24 @@ http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
 
 http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
 
+
+*Disclosure of Magnetic Calculating Machine*
+
+http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2775-Disclosure.pdf
+
 * * *
 
 ### - First Draft of a Report on the EDVAC
 
 http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf
 
+*a really high speed device would be very limited in its usefulness unless it can rely on M [Memory], rather than on R [I/O], for all the purposes enumerated in 2.4, (a)–(h) [Calculation]*
+
 *Herman Goldstine & John Von Neumann*
 
 http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
+
+* Max Newman*
+http://www.rutherfordjournal.org/images/cope2.jpg
 
 * * *
