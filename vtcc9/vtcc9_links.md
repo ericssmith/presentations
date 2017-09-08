@@ -73,7 +73,7 @@ http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 ### - Highest proper factor (#1)
 ```
 fun main(args: Array<String>) {
-    var input = 12
+    val input = 12
     var remainder = input
     var factor = input - 1
 
@@ -90,6 +90,15 @@ fun main(args: Array<String>) {
     }
 }
 ```
+
+- No annotations of type
+- val vs var
+- destructive assignment
+- distance from declaration
+- 'remainder' is not remainder at first; naming misleads
+- nested println modifies state in the environment, not in the program
+- nested return is a jump (ie GO TO)
+- nesting signals a dependency gap
 
 #### Is this correct?
 
