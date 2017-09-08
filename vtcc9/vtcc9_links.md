@@ -150,15 +150,16 @@ http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-
 
 ### - First Draft of a Report on the EDVAC
 
+*a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]*
+
 http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf
 
-*a really high speed device would be very limited in its usefulness unless it can rely on M [Memory], rather than on R [I/O], for all the purposes enumerated in 2.4, (a)–(h) [Calculation]*
 
 *Herman Goldstine & John Von Neumann*
 
 http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
 
-* Max Newman*
+*Max Newman*
 http://www.rutherfordjournal.org/images/cope2.jpg
 
 * * *
