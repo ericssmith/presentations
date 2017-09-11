@@ -2,6 +2,11 @@
 
 * * *
 
+### - Guerilla Open Access Manifesto
+
+https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
+
+
 ### - Etymology for "coherence"
 
 http://www.etymonline.com/index.php?term=coherent
