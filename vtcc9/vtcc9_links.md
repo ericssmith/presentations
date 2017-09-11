@@ -206,4 +206,11 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 5. if (r = 0)
 
 
+- inspired by Leung
+- structured loop (ie while) becomes conditional jump
+- loops are bookended by two gotos
+- loop check is inverted from structured version
+- body of loop is assignment (or another conditional jump sequence)
+
+
 * * *
