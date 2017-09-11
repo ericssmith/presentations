@@ -71,7 +71,7 @@ https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif
 
 http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 
-*Highest proper factor using subtraction instead of division*
+*Highest proper factor; uses subtraction instead of division*
 
 * * *
 
