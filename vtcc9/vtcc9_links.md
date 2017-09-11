@@ -6,6 +6,7 @@
 
 https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
+* * *
 
 ### - Etymology for "coherence"
 
