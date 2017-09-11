@@ -203,13 +203,13 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 	   n ∉ ℙ  (where ℙ is the set of prime numbers)
 	1. r ≔ n
 	2. f ≔ r - 1
-OUTER:  3. if (r = 0) goto EXIT  // terminate
-INNER:  4. if (f = 1) goto NEXT
+INNER:  3. if (r = 0) goto EXIT  // terminate
+OUTER:  4. if (f = 1) goto NEXT
 	5. r ≔ r - f    // decr
-	6. goto OUTER
+	6. goto INNER
 NEXT:   7. f ≔ f - 1  // decr
 	8. r ≔ n      // reset
-	9. goto INNER
+	9. goto OUTER
 EXIT:  10.
 ```
 
