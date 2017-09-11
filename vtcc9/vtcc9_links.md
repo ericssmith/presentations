@@ -10,11 +10,12 @@ http://www.etymonline.com/index.php?term=coherent
 
 ### - Go To Statement Considered Harmful
 
+*our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should [...] shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible.*
+
 https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
 
 *Originally titled "A Case Against the Go To Statement"*
 
-*our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should [...] shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible.*
 
 #### (Late binding and side-effecting code are the antithesis of this - IMO).
 
@@ -111,11 +112,12 @@ fun main(args: Array<String>) {
 
 ### - Robert W Floyd, In Memoriam by Donald Knuth
 
-https://youtu.be/OJsMXu3EPCw?t=29m43s
+*The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
 
 http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
 
-*The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
+https://youtu.be/OJsMXu3EPCw?t=29m43s
+
 
 * * *
 
