@@ -199,7 +199,8 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 ### - Highest proper factor (as 'assembly')
 
-	n ∉ ℙ  (where ℙ is the set of prime numbers)
+```
+	   n ∉ ℙ  (where ℙ is the set of prime numbers)
 	1. r ≔ n
 	2. f ≔ r - 1
 OUTER:  3. if (r = 0) goto EXIT  // terminate
@@ -210,7 +211,7 @@ NEXT:   7. f ≔ f - 1  // decr
 	8. r ≔ n      // reset
 	9. goto INNER
 EXIT:  10.
-
+```
 
 - inspired by Leung
 - structured loop (ie while) becomes conditional jump
