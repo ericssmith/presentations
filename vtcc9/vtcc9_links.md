@@ -199,11 +199,17 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 ### - Highest proper factor (as 'assembly')
 
-1. n ≔ some integer
-2. r ≔ n
-3. f ≔ r - 1
-4. if (f = 1) goto ?
-5. if (r = 0)
+	n ∉ ℙ  (where ℙ is the set of prime numbers)
+	1. r ≔ n
+	2. f ≔ r - 1
+OUTER:  3. if (r = 0) goto EXIT  // terminate
+INNER:  4. if (f = 1) goto NEXT
+	5. r ≔ r - f    // decr
+	6. goto OUTER
+NEXT:   7. f ≔ f - 1  // decr
+	8. r ≔ n      // reset
+	9. goto INNER
+EXIT:  10.
 
 
 - inspired by Leung
