@@ -1,10 +1,6 @@
 # Programming ... in Kotlin
 
-* * *
 
-### - Guerilla Open Access Manifesto
-
-https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 * * *
 
@@ -171,6 +167,13 @@ http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
 *Max Newman*
 
 http://www.rutherfordjournal.org/images/cope2.jpg
+
+
+* * *
+
+### - Guerilla Open Access Manifesto
+
+https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 * * *
 
