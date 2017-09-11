@@ -213,11 +213,14 @@ NEXT:   7. f ≔ f - 1  // decr
 EXIT:  10.
 ```
 
-- inspired by Leung
-- structured loop (ie while) becomes conditional jump
+- inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
+- goal makes sense only for particular input set (non-Prime numbers)
+- termination condition moved to the outside
+- structured loops (ie while) become conditional jumps
 - loops are bookended by two gotos
 - loop check is inverted from structured version
-- body of loop is assignment (or another conditional jump sequence)
+- body of loop is assignments (or another conditional jump sequence)
+
 
 
 * * *
