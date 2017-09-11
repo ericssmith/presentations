@@ -196,3 +196,14 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 * * *
+
+### - Highest proper factor (as 'assembly')
+
+1. n ≔ some integer
+2. r ≔ n
+3. f ≔ r - 1
+4. if (f = 1) goto ?
+5. if (r = 0)
+
+
+* * *
