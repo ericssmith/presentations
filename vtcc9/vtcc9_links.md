@@ -71,7 +71,7 @@ http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600
 
 * * *
 
-### - Highest proper factor (#1)
+### - Highest proper factor (attempt #1)
 
 #### But is it correct?
 
