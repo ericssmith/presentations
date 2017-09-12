@@ -213,9 +213,8 @@ EXIT:  10.
 - goal makes sense only for particular input set (non-Prime numbers)
 - termination condition moved to the outside
 - structured loops (ie while) become conditional jumps
-- loops are bookended by two gotos
+- loops are book-ended by two gotos
 - loop check is inverted from structured version
-- body of loop is assignments (or another conditional jump sequence)
 
 
 
@@ -223,4 +222,4 @@ EXIT:  10.
 
 ### - Flow chart
 
-![Bilby Stampede](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
+![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
