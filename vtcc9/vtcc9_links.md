@@ -96,9 +96,8 @@ fun main(args: Array<String>) {
 ```
 
 - No annotations of type
-- val vs var
-- destructive assignment
-- going to destroy it elsewhere
+- *val* is unchangeable (conceptually just function application)
+- *var* is destructive assignment; value is destroyed elsewhere
 - 'remainder' is not remainder at first; naming misleads
 - nested println modifies state in the environment, not in the program
 - nested return is a jump (ie GO TO)
