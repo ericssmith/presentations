@@ -98,8 +98,8 @@ fun main(args: Array<String>) {
 - No annotations of type
 - *val* is unchangeable (conceptually just function application)
 - *var* is destructive assignment; value is destroyed elsewhere
-- 'remainder' is not remainder at first; naming misleads
-- nested println modifies state in the environment, not in the program
+- 'remainder' is not remainder at first; Englishy naming not that helpful
+- nested *println* modifies state in the environment, not in the program
 - nested return is a jump (ie GO TO)
 - statement nesting leads to *context gap* that has to be jumped over
 
