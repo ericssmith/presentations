@@ -193,7 +193,7 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 * * *
 
-### - Highest proper factor (as 'assembly')
+### - Highest proper factor (as "pseudo-assembly")
 
 ```
 	   n ∉ ℙ  (where ℙ is the set of prime numbers)
