@@ -102,7 +102,7 @@ fun main(args: Array<String>) {
 - 'remainder' is not remainder at first; naming misleads
 - nested println modifies state in the environment, not in the program
 - nested return is a jump (ie GO TO)
-- command nesting leads to *context gap* that has to be jumped over
+- statement nesting leads to *context gap* that has to be jumped over
 
 
 
