@@ -16,10 +16,6 @@ http://www.etymonline.com/index.php?term=coherent
 
 https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
 
-*Originally titled "A Case Against the Go To Statement"*
-
-
-#### (Late binding and side-effecting code are the antithesis of this - IMO).
 
 * * *
 
