@@ -197,14 +197,14 @@ https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 ```
 	   n ∉ ℙ  (where ℙ is the set of prime numbers)
-	1. r ≔ n
-	2. f ≔ r - 1
+	1. r ⟵ n
+	2. f ⟵ r - 1
 INNER:  3. if (r = 0) goto EXIT
 OUTER:  4. if (f = 1) goto NEXT
-	5. r ≔ r - f
+	5. r ⟵ r - f
 	6. goto INNER
-NEXT:   7. f ≔ f - 1
-	8. r ≔ n
+NEXT:   7. f ⟵ f - 1
+	8. r ⟵ n
 	9. goto OUTER
 EXIT:  10.
 ```
@@ -220,6 +220,6 @@ EXIT:  10.
 
 * * *
 
-### - Flow chart
+### - Highest proper factor (as flow chart)
 
 ![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
