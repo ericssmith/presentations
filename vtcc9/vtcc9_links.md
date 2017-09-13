@@ -109,7 +109,7 @@ fun main(args: Array<String>) {
 
 * * *
 
-### - Find more bugs and make more patches
+### - Accepted methodology ... find more bugs and make more patches
 
 *The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
 
