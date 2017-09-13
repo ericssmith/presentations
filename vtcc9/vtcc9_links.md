@@ -219,7 +219,7 @@ EXIT:  10.
 - termination condition moved to the outside
 - structured loops (ie *while*) become conditional jumps
 - loops are book-ended by two gotos
-- loop check is inverted from structured version
+- loop check is inverted from original structured version
 
 
 
