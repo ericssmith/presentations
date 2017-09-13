@@ -176,7 +176,7 @@ https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 * * *
 
-### - Coding is not a static process
+### - Coding is not a static process of translation
 
 *Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ...* (p.2)
 
