@@ -107,9 +107,11 @@ fun main(args: Array<String>) {
 
 * * *
 
-### - Robert W Floyd, In Memoriam by Donald Knuth
+### - Find more bugs and make more patches
 
 *The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
+
+##### Robert W Floyd, In Memoriam by Donald Knuth
 
 http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
 
@@ -224,5 +226,5 @@ EXIT:  10.
 ![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
 
 
-- the starting and ending assertions are *assumed* to be true. The "proof" is the assertion sequence in between.
+- The starting and ending assertions are *assumed* to be true. The "proof" is the assertion sequence in between.
 -
