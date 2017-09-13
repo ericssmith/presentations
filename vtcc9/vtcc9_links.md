@@ -176,9 +176,7 @@ https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 * * *
 
-### - Planning and Coding of Problems for an Electronic Computing Instrument
-
-https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
+### - Coding is not a static process
 
 *Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ...* (p.2)
 
@@ -187,6 +185,10 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 *We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process.* (p.4)
 
 *We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C* (p.4)
+
+#### Planning and Coding of Problems for an Electronic Computing Instrument
+
+https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
 * * *
 
