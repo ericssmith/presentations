@@ -211,7 +211,7 @@ EXIT:  10.
 - inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
 - goal makes sense only for particular input set (non-Prime numbers)
 - termination condition moved to the outside
-- structured loops (ie while) become conditional jumps
+- structured loops (ie *while*) become conditional jumps
 - loops are book-ended by two gotos
 - loop check is inverted from structured version
 
@@ -222,3 +222,7 @@ EXIT:  10.
 ### - Highest proper factor (as flow chart)
 
 ![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
+
+
+- the starting and ending assertions are *assumed* to be true. The "proof" is the assertion sequence in between.
+-
