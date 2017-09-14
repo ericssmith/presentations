@@ -14,9 +14,8 @@ http://www.etymonline.com/index.php?term=coherent
 
 *our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should [...] shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible.*
 
-#### Go To Statement Considered Harmful
+[Go To Statement Considered Harmful](https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf)
 
-https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf
 
 
 * * *
@@ -59,7 +58,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ### - Manchester Small-Scale Experimental Machine
 
-https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif
+[Manchester "Baby"](https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif)
 
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored-program computer (in which data and instructions are stored in same memory)*
 
@@ -386,5 +385,3 @@ fun gcd(m: Int, n: Int): Int =
 
 
 [I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
