@@ -112,24 +112,22 @@ fun main(args: Array<String>) {
 
 *The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
 
-#### Robert W Floyd, In Memoriam by Donald Knuth
+[Robert W Floyd, In Memoriam by Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz)
 
-http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz
-
-https://youtu.be/OJsMXu3EPCw?t=29m43s
+[Video of Knuth talking about Floyd](https://youtu.be/OJsMXu3EPCw?t=29m43s)
 
 
 * * *
 
 ### - Function (extensional)
 
-https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png
+![Function](https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png)
 
 * * *
 
 ### - Domain, Co-domain, Range
 
-https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG
+![Domain,Co-domain, Range](https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG)
 
 * * *
 
