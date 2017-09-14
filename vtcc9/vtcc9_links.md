@@ -319,4 +319,19 @@ numbers meaning __operations__ should have appeared on some separate portion of 
 https://history-computer.com/Library/Sketch%20of%20Engine.pdf
 
 Ada Lovelace
+
 http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg
+
+
+Arguably anticipates Gödel's use of numbers to represent logical propositions
+
+*"The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers"* (p45)
+
+##### On Formally Undecidable Propositions of Principia Mathematica and Related Systems
+
+http://jacqkrol.x10.mx/assets/articles/godel-1931.pdf
+
+Original German: http://www.w-k-essler.de/pdfs/goedel.pdf
+
+
+Note also that Gödel introduces a notion of computability using recursive functions.
