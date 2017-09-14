@@ -289,12 +289,19 @@ http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_
 
 http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
 
+*A FORTRAN source program consists of a sequence of FORTRAN statements* (p7)
 
 #### The Automatic Coding System for the IBM 704 EDPM
 
-*A FORTRAN source program consists of a sequence of FORTRAN statements* (p7)
-
 https://www.fortran.com/FortranForTheIBM704.pdf
+
+
+Mark Priestly compares the history of the two approaches in
+
+##### AI and the Origins of the Functional Programming Language Style
+
+http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf
+
 
 
 
