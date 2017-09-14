@@ -355,9 +355,7 @@ You have to pay $15 to read this one-page letter
 
 http://dl.acm.org/citation.cfm?id=1773349&dl=ACM&coll=DL&CFID=809180756&CFTOKEN=13625595
 
-John McCarthy
-
-https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg
+![John McCarthy](https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg)
 
 * * *
 
