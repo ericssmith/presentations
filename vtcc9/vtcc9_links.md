@@ -422,3 +422,18 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 
 
 * * *
+
+### - map
+
+```
+maplist[x;f]
+The function maplist is a mapping of the list x onto a new list f[x]
+
+maplist[x;f] = [null[x] → NIL;
+		T → cons[f[x]; maplist[cdr[x];f]]]
+
+```
+
+(p122)
+
+[LISP I Programmer's Manual](http://history.siam.org/sup/Fox_1960_LISP.pdf)
