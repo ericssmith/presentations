@@ -264,8 +264,38 @@ fun main(args: Array<String>) {
 
 * * *
 
+stub
+
+* * *
+
+stub
+
+* * *
+
 ### - An entirely different kind of power ... the ability to do recursions
 
-"An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates." (p34)
+*An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates. (p34)
 
 http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
+
+
+* * *
+
+### - A program ...
+
+*In IPL a program ... is a system of subroutines ... organized in a roughly hierarchical fashion.* (p16)
+
+#### Programming the Logic Theory Machine
+
+http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
+
+
+#### The Automatic Coding System for the IBM 704 EDPM
+
+*A FORTRAN source program consists of a sequence of FORTRAN statements* (p7)
+
+https://www.fortran.com/FortranForTheIBM704.pdf
+
+
+
+* * *
