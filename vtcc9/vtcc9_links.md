@@ -12,7 +12,7 @@ http://www.etymonline.com/index.php?term=coherent
 
 ### - Shorten the conceptual gap
 
-*our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should [...] shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible.*
+*"... our intellectual powers are rather geared to master static relations and that our powers to visualize processes evolving in time are relatively poorly developed. For that reason we should [...] shorten the conceptual gap between the static program and the dynamic process, to make the correspondence between the program (spread out in text space) and the process (spread out in time) as trivial as possible."*
 
 [Go To Statement Considered Harmful](https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf)
 
@@ -74,7 +74,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ### - Highest proper factor (attempt #1)
 
-#### But is it correct?
+
 
 ```
 fun main(args: Array<String>) {
@@ -105,12 +105,14 @@ fun main(args: Array<String>) {
 - statement nesting leads to *context gap* that has to be jumped over
 
 
+#### But is it correct?
+
 
 * * *
 
 ### - Accepted methodology ... find more bugs and make more patches
 
-*The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure*
+*"The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure"*
 
 [Robert W Floyd, In Memoriam by Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz)
 
@@ -151,7 +153,7 @@ http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-
 
 ### - First Draft of a Report on the EDVAC
 
-*a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]*
+*"... a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]"*
 
 http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf
 
@@ -175,13 +177,13 @@ https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 ### - Coding is not a static process of translation
 
-*Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ...* (p.2)
+*"Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ..."* (p.2)
 
-*Our problem is then to find simple, step-by-step methods, by which these difficulties can be overcome. Since coding is not a static process of translation, but rather the technique of providing a dynamic background to control the automatic evolution of a meaning, it has to be viewed as a logical problem and one that represents a new branch of formal logics.* (p.2)
+*"Our problem is then to find simple, step-by-step methods, by which these difficulties can be overcome. Since coding is not a static process of translation, but rather the technique of providing a dynamic background to control the automatic evolution of a meaning, it has to be viewed as a logical problem and one that represents a new branch of formal logics."* (p.2)
 
-*We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process.* (p.4)
+*"We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process."* (p.4)
 
-*We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C* (p.4)
+*"We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C"* (p.4)
 
 #### Planning and Coding of Problems for an Electronic Computing Instrument
 
@@ -267,39 +269,26 @@ stub
 
 stub
 
-* * *
-
-### - An entirely different kind of power ... the ability to do recursions
-
-*An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates. (p34)
-
-http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
 
 
 * * *
 
 ### - A program ...
 
-*In IPL a program ... is a system of subroutines ... organized in a roughly hierarchical fashion.* (p16)
-
-#### Programming the Logic Theory Machine
-
-http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
-
 *A FORTRAN source program consists of a sequence of FORTRAN statements* (p7)
 
-#### The Automatic Coding System for the IBM 704 EDPM
+[The Automatic Coding System for the IBM 704 EDPM](https://www.fortran.com/FortranForTheIBM704.pdf)
 
-https://www.fortran.com/FortranForTheIBM704.pdf
+
+
+*"In IPL a program ... is a system of subroutines ... organized in a roughly hierarchical fashion."* (p16)
+
+[Programming the Logic Theory Machine](http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf)
 
 
 Mark Priestly compares the history of the two approaches in
 
-##### AI and the Origins of the Functional Programming Language Style
-
-http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf
-
-
+[AI and the Origins of the Functional Programming Language Style](http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf)
 
 
 * * *
@@ -324,14 +313,20 @@ Lovelace arguably anticipates Gödel's use of numbers to represent logical propo
 
 *"The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers"* (p45)
 
-##### On Formally Undecidable Propositions of Principia Mathematica and Related Systems
+[On Formally Undecidable Propositions of Principia Mathematica and Related Systems](http://jacqkrol.x10.mx/assets/articles/godel-1931.pdf)
 
-http://jacqkrol.x10.mx/assets/articles/godel-1931.pdf
-
-Original German: http://www.w-k-essler.de/pdfs/goedel.pdf
+[Original German](http://www.w-k-essler.de/pdfs/goedel.pdf)
 
 
 Note also that Gödel introduces a notion of computability using recursive functions.
+
+* * *
+
+### - An entirely different kind of power ... the ability to do recursions
+
+*"An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates."* (p34)
+
+http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
 
 
 * * *
@@ -351,12 +346,13 @@ gcd(m,n) = (m > n → gcd(n, m),
 ```
 
 
-You have to pay $15 to read this one-page letter
+[Letters to the Editor, Communications of the ACM, I no.12 1958](http://dl.acm.org/citation.cfm?id=1773349&dl=ACM&coll=DL&CFID=809180756&CFTOKEN=13625595)
 
-http://dl.acm.org/citation.cfm?id=1773349&dl=ACM&coll=DL&CFID=809180756&CFTOKEN=13625595
-
+You have to pay $15 to read this one-page letter.
 
 <img src="https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg" width="300">
+
+*John McCarthy*
 
 * * *
 
@@ -377,11 +373,6 @@ fun gcd(m: Int, n: Int): Int =
 	if (m % n == 0) n
 	else gcd(n, m % n)
 ```
-
-* * *
-
-
-[I'm an inline-style link](https://www.google.com)
 
 
 * * *
