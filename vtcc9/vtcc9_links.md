@@ -309,10 +309,10 @@ http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf
 
 ### - Symbolic computation
 
-*whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all
-... numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__* (p16)
+*"...whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all
+... numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__"* (p16)
 
-*The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__* (p17)
+*"The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__"* (p17)
 
 
 ##### Sketch of the Analytical Engine
@@ -341,7 +341,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 ### - Conditional expression
 
-*The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__*
+*"The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__"*
 
 ```
 ( p₁ → e₁, ..., pₓ → eₓ )
@@ -383,3 +383,8 @@ fun gcd(m: Int, n: Int): Int =
 ```
 
 * * *
+
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
