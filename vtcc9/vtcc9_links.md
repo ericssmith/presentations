@@ -363,3 +363,23 @@ John McCarthy
 https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg
 
 * * *
+
+
+### - Greatest Common Divisor with Conditional Expression
+
+```
+// McCarthy's algorithm
+fun gcd(m: Int, n: Int): Int =
+	if (m > n) gcd(n, m)
+	else if (n % m == 0) m
+	else gcd(n % m, m)
+```
+
+```
+// Euclid's algorithm
+fun gcd(m: Int, n: Int): Int =
+	if (m % n == 0) n
+	else gcd(n, m % n)
+```
+
+* * *
