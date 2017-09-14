@@ -263,3 +263,9 @@ fun main(args: Array<String>) {
 - Domain is incorrect; results in '1' for prime numbers
 
 * * *
+
+### - An entirely different kind of power ... the ability to do recursions
+
+"An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates." (p34)
+
+http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
