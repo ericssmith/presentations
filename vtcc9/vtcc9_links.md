@@ -239,6 +239,11 @@ EXIT:  10.
 ### - Highest proper factor (attempt #2)
 
 ```
+fun main(args: Array<String>) {
+    val input = 12
+    var remainder = input
+    var factor = input - 1
+
     loop@
     while (factor > 1) {
 	while (remainder > 0) {
@@ -248,4 +253,13 @@ EXIT:  10.
 	factor--
 	remainder = input
     }
+
+    println(factor)
+}
 ```
+
+- Jump on terminating condition
+- Output moved to boundary with environment
+- Results in '1' for prime numbers
+
+* * *
