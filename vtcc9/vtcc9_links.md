@@ -230,5 +230,22 @@ EXIT:  10.
 ![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
 
 
-- The starting and ending assertions are *assumed* to be true. The "proof" is the assertion sequence in between.
+- The starting and ending assertions are *assumed* to be true. The "program proof" is the assertion sequence in between.
 -
+
+
+* * *
+
+### - Highest proper factor (attempt #2)
+
+```
+    loop@
+    while (factor > 1) {
+	while (remainder > 0) {
+	    remainder = remainder - factor
+	}
+	if (remainder == 0) break@loop
+	factor--
+	remainder = input
+    }
+```
