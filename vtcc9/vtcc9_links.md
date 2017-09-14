@@ -365,7 +365,7 @@ https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg
 * * *
 
 
-### - Greatest Common Divisor with Conditional Expression
+### - Greatest Common Divisor with Conditional Expression & Recursion
 
 ```
 // McCarthy's algorithm
