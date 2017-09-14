@@ -343,12 +343,15 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 *The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__*
 
+```
+( p₁ → e₁, ..., pₓ → eₓ )
+```
 
-*( p₁ → e₁, ..., pₓ → eₓ )*
-
-*gcd(m,n) = (m > n → gcd(n, m),
+```
+gcd(m,n) = (m > n → gcd(n, m),
 	   rem(n,m) = 0 → m,
-	   T → gcd(rem(n,m), m))*
+	   T → gcd(rem(n,m), m))
+```
 
 
 You have to pay $15 to read this one-page letter
