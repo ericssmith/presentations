@@ -306,3 +306,17 @@ http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf
 
 
 * * *
+
+### - Symbolic computation
+
+*whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all
+numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__* (p16)
+
+*The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__* (p17)
+
+
+##### Sketch of the Analytical Engine
+https://history-computer.com/Library/Sketch%20of%20Engine.pdf
+
+Ada Lovelace
+http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg
