@@ -382,3 +382,32 @@ fun gcd(m: Int, n: Int): Int =
 
 
 [I'm an inline-style link](https://www.google.com)
+
+
+* * *
+
+### - Greatest proper factor (attempt #3)
+
+```
+fun main(args: Array<String>) {
+    val input = 12
+
+    val result = checkFactors(input, input - 1)
+
+    println(result)
+}
+
+
+fun properFactor(remainder: Int, factor: Int): Boolean {
+    return if (remainder > 0) properFactor(remainder - factor, factor)
+    else remainder == 0
+}
+
+
+tailrec fun checkFactors(n: Int, trial: Int): Int {
+    return if (properFactor(n, trial)) trial     // is trial a proper factor of n?
+    else checkFactors(n, trial - 1) // if not, reduce trial and try again
+}
+
+
+```
