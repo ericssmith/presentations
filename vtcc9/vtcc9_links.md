@@ -260,6 +260,6 @@ fun main(args: Array<String>) {
 
 - Jump on terminating condition
 - Output moved to boundary with environment
-- Results in '1' for prime numbers
+- Domain is incorrect; results in '1' for prime numbers
 
 * * *
