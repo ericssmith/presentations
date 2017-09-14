@@ -86,8 +86,8 @@ fun main(args: Array<String>) {
     while (factor > 1) {
 	while (remainder >= 0) {
 	    if (remainder == 0) {
-		println(factor) // Setting state of environment
-		return          // GOTO
+		println(factor)
+		return
 	    }
 	    remainder = remainder - factor
 	}
@@ -310,7 +310,7 @@ http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf
 ### - Symbolic computation
 
 *whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all
-numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__* (p16)
+... numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__* (p16)
 
 *The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__* (p17)
 
@@ -323,7 +323,7 @@ Ada Lovelace
 http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg
 
 
-Arguably anticipates Gödel's use of numbers to represent logical propositions
+Lovelace arguably anticipates Gödel's use of numbers to represent logical propositions
 
 *"The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers"* (p45)
 
@@ -335,3 +335,28 @@ Original German: http://www.w-k-essler.de/pdfs/goedel.pdf
 
 
 Note also that Gödel introduces a notion of computability using recursive functions.
+
+
+* * *
+
+### - Conditional expression
+
+*The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__*
+
+
+*( p₁ → e₁, ..., pₓ → eₓ )*
+
+*gcd(m,n) = (m > n → gcd(n, m),
+	   rem(n,m) = 0 → m,
+	   T → gcd(rem(n,m), m))*
+
+
+You have to pay $15 to read this one-page letter
+
+http://dl.acm.org/citation.cfm?id=1773349&dl=ACM&coll=DL&CFID=809180756&CFTOKEN=13625595
+
+John McCarthy
+
+https://c1.staticflickr.com/7/6218/6277562781_a84386cee5_b.jpg
+
+* * *
