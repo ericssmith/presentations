@@ -275,7 +275,7 @@ stub
 
 ### - A program ...
 
-*A FORTRAN source program consists of a sequence of FORTRAN statements* (p7)
+*"A FORTRAN source program consists of a sequence of FORTRAN statements"* (p7)
 
 [The Automatic Coding System for the IBM 704 EDPM](https://www.fortran.com/FortranForTheIBM704.pdf)
 
@@ -402,3 +402,23 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 
 
 ```
+
+* * *
+
+### - An Algebraic Language
+
+*"1.1.1 Manipulating sentences in formal languages ..."*
+
+*"1.1.2 The formal processes of mathematics such as algebraic simplification, formal differentiation and integration ..."*
+
+*"1.1.3 A compiler ... except for input and output ..."*
+
+*"1.1.4 Heuristic programs ..."*
+
+*"1.1.5 ... representing expressions whose number and length may change ..."*
+
+
+[An Algebraic Language for the Manipulation of Symbolic Expressions](http://www.softwarepreservation.org/projects/LISP/MIT/AIM-001.pdf)
+
+
+* * *
