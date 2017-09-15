@@ -96,13 +96,13 @@ fun main(args: Array<String>) {
 }
 ```
 
-- No annotations of type
-- *val* is unchangeable (conceptually just function application)
+- No annotations of type; they are "inferred"
+- *val* is unchangeable
 - *var* is destructive assignment; value is destroyed elsewhere
 - 'remainder' is not remainder at first; Englishy naming not that helpful
-- nested *println* modifies state in the environment, not in the program
-- nested return is a jump (ie GO TO)
-- statement nesting leads to *context gap* that has to be jumped over
+- Nested *println* modifies state in the environment, not in the program
+- Nested return is a jump (ie GO TO)
+- Statement nesting leads to *conceptual gap* that has to be jumped over
 
 
 #### But is it correct?
@@ -213,12 +213,12 @@ NEXT:   7. f ⟵ f - 1
 EXIT:  10.
 ```
 
-- inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
-- goal makes sense only for particular input set (non-Prime numbers)
-- termination condition moved to the outside
-- structured loops (ie *while*) become conditional jumps
-- loops are book-ended by two gotos
-- loop check is inverted from original structured version
+- Inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
+- Goal makes sense only for particular input set (non-Prime numbers)
+- Termination condition moved to the outside
+- Structured loops (ie *while*) become conditional jumps
+- Loops are book-ended by two gotos
+- Loop check is inverted from original structured version
 
 
 
