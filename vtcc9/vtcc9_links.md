@@ -548,18 +548,18 @@ maplist[x;f] = [null[x] → NIL;
 
 *"ISWIM is based on LISP but is more regular and in some ways more convenient. It may best be regarded as a palatable syntactic dress for Church's lambda calculus, and the ... known logical properties makes it suitable for us here."*
 
-
-[Proving Properties of Programs by Structural Induction](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Burstall.pdf)
-
-[The Next 700 Programming Languages](https://atlas.cs.virginia.edu/~weimer/4610/reading/p157-landin.pdf)
-
-
 ```
 let rec concat(xs1,xs2) =
    if null(xs1) then xs2
    else let x = car(xs1) and xs3 = cdr(xs1)
    cons(x, concat(xs3,xs2))
 ```
+
+[Proving Properties of Programs by Structural Induction](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Burstall.pdf)
+
+[The Next 700 Programming Languages](https://atlas.cs.virginia.edu/~weimer/4610/reading/p157-landin.pdf)
+
+<br/>
 
 ```
 // not idiomatic Kotlin
