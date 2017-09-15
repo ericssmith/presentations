@@ -559,7 +559,6 @@ let rec concat(xs1,xs2) =
 
 [The Next 700 Programming Languages](https://atlas.cs.virginia.edu/~weimer/4610/reading/p157-landin.pdf)
 
-<br/>
 
 ```
 // not idiomatic Kotlin
