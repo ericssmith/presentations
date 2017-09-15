@@ -1,5 +1,5 @@
 # Going Back to the Future
-#### A brief survey of the history of programming leading up to the present, illustrated with a 21st-century industrial language, Kotlin
+#### A little history of programming that helps explain the importance of Kotlin, a 21st-century industrial language
 
 This is a living document and is subject to correction and expansion.
 
