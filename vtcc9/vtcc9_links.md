@@ -171,6 +171,8 @@ http://www.rutherfordjournal.org/images/cope2.jpg
 
 ### - Guerilla Open Access Manifesto
 
+*"Providing scientific articles to those at elite universities in the First World, but not to children in the Global South?"*
+
 https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
 
