@@ -173,7 +173,7 @@ http://www.rutherfordjournal.org/images/cope2.jpg
 
 *"Providing scientific articles to those at elite universities in the First World, but not to children in the Global South?"*
 
-https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
+[Guerilla Open Access Manifesto](https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt)
 
 
 <br/>
