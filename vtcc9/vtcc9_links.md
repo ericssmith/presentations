@@ -173,6 +173,13 @@ http://www.rutherfordjournal.org/images/cope2.jpg
 
 https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt
 
+
+<br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Aaron_Swartz_and_Lawrence_Lessig.jpg" width="300">
+
+*Aaron Schwartz*
+
+
 * * *
 
 ### - Coding is not a static process of translation
