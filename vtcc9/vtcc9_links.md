@@ -437,3 +437,40 @@ maplist[x;f] = [null[x] → NIL;
 (p122)
 
 [LISP I Programmer's Manual](http://history.siam.org/sup/Fox_1960_LISP.pdf)
+
+
+
+
+* * *
+
+### - Record Handling
+
+
+
+[Record Handling](http://archive.computerhistory.org/resources/text/knuth_don_x4100/PDF_index/k-9-pdf/k-9-u2293-Record-Handling-Hoare.pdf)
+
+
+
+* * *
+
+### - Null
+
+
+
+
+[Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
+
+
+* * *
+
+stub
+
+* * *
+
+stub
+
+* * *
+
+### - Algebraic specification
+
+[A Look at Algebraic Specification](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0454-09.pdf)
