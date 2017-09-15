@@ -301,13 +301,12 @@ Mark Priestly compares the history of the two approaches in
 *"The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__"* (p17)
 
 
-##### Sketch of the Analytical Engine
-https://history-computer.com/Library/Sketch%20of%20Engine.pdf
+[Sketch of the Analytical Engine](https://history-computer.com/Library/Sketch%20of%20Engine.pdf)
 
-Ada Lovelace
 
-http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg
+![Lovelace](http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg)
 
+*Ada Lovelace*
 
 Lovelace arguably anticipates Gödel's use of numbers to represent logical propositions
 
