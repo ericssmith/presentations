@@ -10,8 +10,9 @@ This is a living document and is subject to correction and expansion.
 
 ### - Etymology for "coherence"
 
-http://www.etymonline.com/index.php?term=coherent
+[Coherence](http://www.etymonline.com/index.php?term=coherent)
 
+<br/>
 * * *
 
 ### - Shorten the conceptual gap
@@ -21,7 +22,7 @@ http://www.etymonline.com/index.php?term=coherent
 [Go To Statement Considered Harmful](https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf)
 
 
-
+<br/>
 * * *
 
 
@@ -31,6 +32,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 *You have to hit checkbox for "Accept License Agreement"*
 
+<br/>
 * * *
 
 ### - Intellij download
@@ -39,7 +41,7 @@ https://www.jetbrains.com/idea/download
 
 *The Community Edition doesn't include Javascript.*
 
-
+<br/>
 * * *
 
 ### - Kotlin dependencies
@@ -57,6 +59,7 @@ dependencies {
 
 http://pholser.github.io/junit-quickcheck/site/0.7/
 
+<br/>
 * * *
 
 
@@ -66,6 +69,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored-program computer (in which data and instructions are stored in same memory)*
 
+<br/>
 * * *
 
 ### - First successful "stored" program (Manchester SSEM)
@@ -74,6 +78,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 *Highest proper factor; uses subtraction instead of division*
 
+<br/>
 * * *
 
 ### - Highest proper factor (attempt #1)
@@ -111,7 +116,7 @@ fun main(args: Array<String>) {
 
 #### But is it correct?
 
-
+<br/>
 * * *
 
 ### - Accepted methodology ... find more bugs and make more patches
@@ -122,55 +127,67 @@ fun main(args: Array<String>) {
 
 [Video of Knuth talking about Floyd](https://youtu.be/OJsMXu3EPCw?t=29m43s)
 
-
+<br/>
 * * *
 
 ### - Function (extensional)
 
 ![Function](https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png)
 
+<br/>
 * * *
 
 ### - Domain, Co-domain, Range
 
 ![Domain,Co-domain, Range](https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG)
 
+<br/>
 * * *
 
 ### - ENIAC
 
-http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$
 
+![ENIAC](http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$?w=600)
+
+*Electronic Numerical Integrator and Computer (ENIAC)*
+
+<br/>
 * * *
 
 
 ### - Presper Eckert & John Mauchly
 
-http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg
+
+![Eckert and Mauchly](http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg?w=400)
 
 
-*Disclosure of Magnetic Calculating Machine*
 
-http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2775-Disclosure.pdf
+[Disclosure of Magnetic Calculating Machine](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2775-Disclosure.pdf)
 
+<br/>
 * * *
 
 ### - First Draft of a Report on the EDVAC
 
 *"... a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]"*
 
-http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf
+[First Draft of a Report on the EDVAC](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf)
 
 
 *Herman Goldstine & John Von Neumann*
 
-http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg
+![Goldstine and VonNeumann](http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg?w=400)
+
+*Herman Goldstine, John Von Neumann*
+
+
+
+
+![Newman](http://www.rutherfordjournal.org/images/cope2.jpg?w=400)
 
 *Max Newman*
 
-http://www.rutherfordjournal.org/images/cope2.jpg
-
-
+<br/>
 * * *
 
 ### - Guerilla Open Access Manifesto
@@ -185,7 +202,7 @@ http://www.rutherfordjournal.org/images/cope2.jpg
 
 *Aaron Schwartz*
 
-
+<br/>
 * * *
 
 ### - Coding is not a static process of translation
@@ -202,12 +219,14 @@ http://www.rutherfordjournal.org/images/cope2.jpg
 
 https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
+<br/>
 * * *
 
 ### - Assigning Meanings to Programs
 
 https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
+<br/>
 * * *
 
 ### - Highest proper factor (as pseudo-assembly)
@@ -234,7 +253,7 @@ EXIT:  10.
 - Loop check is inverted from original structured version
 
 
-
+<br/>
 * * *
 
 ### - Highest proper factor (as flow chart)
@@ -245,7 +264,7 @@ EXIT:  10.
 - The starting and ending assertions are *assumed* to be true. The "program proof" is the assertion sequence in between.
 -
 
-
+<br/>
 * * *
 
 ### - Highest proper factor (attempt #2)
@@ -274,16 +293,18 @@ fun main(args: Array<String>) {
 - Output moved to boundary with environment
 - Domain is incorrect; results in '1' for prime numbers
 
+<br/>
 * * *
 
 stub
 
+<br/>
 * * *
 
 stub
 
 
-
+<br/>
 * * *
 
 ### - A program ...
@@ -303,7 +324,7 @@ Mark Priestly compares the history of the two approaches in
 
 [AI and the Origins of the Functional Programming Language Style](http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf)
 
-
+<br/>
 * * *
 
 ### - Symbolic computation
@@ -332,6 +353,7 @@ Lovelace arguably anticipates Gödel's use of numbers to represent logical propo
 
 Note also that Gödel introduces a notion of computability using recursive functions.
 
+<br/>
 * * *
 
 ### - An entirely different kind of power ... the ability to do recursions
@@ -340,7 +362,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
 
-
+<br/>
 * * *
 
 ### - Conditional expression
@@ -366,6 +388,7 @@ You have to pay $15 to read this one-page letter.
 
 *John McCarthy*
 
+<br/>
 * * *
 
 
@@ -386,7 +409,7 @@ fun gcd(m: Int, n: Int): Int =
 	else gcd(n, m % n)
 ```
 
-
+<br/>
 * * *
 
 ### - Greatest proper factor (attempt #3)
@@ -415,6 +438,7 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 
 ```
 
+<br/>
 * * *
 
 ### - An Algebraic Language
@@ -432,7 +456,7 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 
 [An Algebraic Language for the Manipulation of Symbolic Expressions](http://www.softwarepreservation.org/projects/LISP/MIT/AIM-001.pdf)
 
-
+<br/>
 * * *
 
 ### - map
@@ -452,7 +476,7 @@ maplist[x;f] = [null[x] → NIL;
 
 
 
-
+<br/>
 * * *
 
 ### - Record Handling
@@ -462,7 +486,7 @@ maplist[x;f] = [null[x] → NIL;
 [Record Handling](http://archive.computerhistory.org/resources/text/knuth_don_x4100/PDF_index/k-9-pdf/k-9-u2293-Record-Handling-Hoare.pdf)
 
 
-
+<br/>
 * * *
 
 ### - Null
@@ -472,15 +496,17 @@ maplist[x;f] = [null[x] → NIL;
 
 [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
 
-
+<br/>
 * * *
 
 stub
 
+<br/>
 * * *
 
 stub
 
+<br/>
 * * *
 
 ### - Algebraic specification
@@ -488,3 +514,7 @@ stub
 [A Look at Algebraic Specification](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0454-09.pdf)
 
 None of the early papers on algebraic specification are available on the internet. And in most cases, they are not available at all (practically speaking). So I can't really give credit where credit is due (with primary source). I'm linking to Zilles' summary because he was an important participant in the 70s data type specification movement and his paper is fairly readable.
+
+
+<br/>
+* * *
