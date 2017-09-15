@@ -65,7 +65,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ### - Manchester Small-Scale Experimental Machine
 
-![Photo of Manchester "Baby"](https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif)
+<img src="https://csdl-images.computer.org/mags/an/2005/03/figures/a30441.gif" width="500">
 
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored-program computer (in which data and instructions are stored in same memory)*
 
@@ -74,7 +74,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ### - First successful "stored" program (Manchester SSEM)
 
-![Photo of Tom Kilburn's program](http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600)
+<img src="http://images.computerhistory.org/revonline/images/500004282-03-01.jpg" width="400">
 
 *Highest proper factor; uses subtraction instead of division*
 
@@ -132,22 +132,22 @@ fun main(args: Array<String>) {
 
 ### - Function (extensional)
 
-![Function](https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png)
+<img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="400">
 
 <br/>
 * * *
 
 ### - Domain, Co-domain, Range
 
-![Domain,Co-domain, Range](https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG)
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG" width="400">
 
 <br/>
 * * *
 
 ### - ENIAC
 
+<img src="http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$" width="500">
 
-![ENIAC](http://s7.computerhistory.org/is/image/CHM/102652279-03-01?$re-medium$?w=600)
 
 *Electronic Numerical Integrator and Computer (ENIAC)*
 
@@ -157,8 +157,8 @@ fun main(args: Array<String>) {
 
 ### - Presper Eckert & John Mauchly
 
+<img src="http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg" width="500">
 
-![Eckert and Mauchly](http://1.bp.blogspot.com/-Z_JlpTAseR4/U8zukd-nauI/AAAAAAAAAIk/DN6sDc-wh5E/s1600/8.jpg?w=400)
 
 
 
@@ -176,14 +176,11 @@ fun main(args: Array<String>) {
 
 *Herman Goldstine & John Von Neumann*
 
-![Goldstine and VonNeumann](http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg?w=400)
+<img src="http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg" width="500">
 
 *Herman Goldstine, John Von Neumann*
 
-
-
-
-![Newman](http://www.rutherfordjournal.org/images/cope2.jpg?w=400)
+<img src="http://www.rutherfordjournal.org/images/cope2.jpg" width="300">
 
 *Max Newman*
 
