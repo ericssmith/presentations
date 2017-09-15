@@ -13,6 +13,7 @@ This is a living document and is subject to correction and expansion.
 [Coherence](http://www.etymonline.com/index.php?term=coherent)
 
 <br/>
+
 * * *
 
 ### - Shorten the conceptual gap
@@ -23,6 +24,7 @@ This is a living document and is subject to correction and expansion.
 
 
 <br/>
+
 * * *
 
 
@@ -33,6 +35,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 *You have to hit checkbox for "Accept License Agreement"*
 
 <br/>
+
 * * *
 
 ### - Intellij download
@@ -42,6 +45,7 @@ https://www.jetbrains.com/idea/download
 *The Community Edition doesn't include Javascript.*
 
 <br/>
+
 * * *
 
 ### - Kotlin dependencies
@@ -60,6 +64,7 @@ dependencies {
 http://pholser.github.io/junit-quickcheck/site/0.7/
 
 <br/>
+
 * * *
 
 
@@ -70,6 +75,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 *June 21, 1948 - Program runs successfully on first binary, digital, electronic stored-program computer (in which data and instructions are stored in same memory)*
 
 <br/>
+
 * * *
 
 ### - First successful "stored" program (Manchester SSEM)
@@ -79,6 +85,7 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 *Highest proper factor; uses subtraction instead of division*
 
 <br/>
+
 * * *
 
 ### - Highest proper factor (attempt #1)
@@ -117,6 +124,7 @@ fun main(args: Array<String>) {
 #### But is it correct?
 
 <br/>
+
 * * *
 
 ### - Accepted methodology ... find more bugs and make more patches
@@ -128,6 +136,7 @@ fun main(args: Array<String>) {
 [Video of Knuth talking about Floyd](https://youtu.be/OJsMXu3EPCw?t=29m43s)
 
 <br/>
+
 * * *
 
 ### - Function (extensional)
@@ -135,6 +144,7 @@ fun main(args: Array<String>) {
 <img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="400">
 
 <br/>
+
 * * *
 
 ### - Domain, Co-domain, Range
@@ -142,6 +152,7 @@ fun main(args: Array<String>) {
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Codomain2.SVG" width="400">
 
 <br/>
+
 * * *
 
 ### - ENIAC
@@ -152,6 +163,7 @@ fun main(args: Array<String>) {
 *Electronic Numerical Integrator and Computer (ENIAC)*
 
 <br/>
+
 * * *
 
 
@@ -165,6 +177,7 @@ fun main(args: Array<String>) {
 [Disclosure of Magnetic Calculating Machine](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2775-Disclosure.pdf)
 
 <br/>
+
 * * *
 
 ### - First Draft of a Report on the EDVAC
@@ -185,6 +198,7 @@ fun main(args: Array<String>) {
 *Max Newman*
 
 <br/>
+
 * * *
 
 ### - Guerilla Open Access Manifesto
@@ -200,6 +214,7 @@ fun main(args: Array<String>) {
 *Aaron Schwartz*
 
 <br/>
+
 * * *
 
 ### - Coding is not a static process of translation
@@ -217,6 +232,7 @@ fun main(args: Array<String>) {
 https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
 <br/>
+
 * * *
 
 ### - Assigning Meanings to Programs
@@ -224,6 +240,7 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 <br/>
+
 * * *
 
 ### - Highest proper factor (as pseudo-assembly)
@@ -251,6 +268,7 @@ EXIT:  10.
 
 
 <br/>
+
 * * *
 
 ### - Highest proper factor (as flow chart)
@@ -262,6 +280,7 @@ EXIT:  10.
 -
 
 <br/>
+
 * * *
 
 ### - Highest proper factor (attempt #2)
@@ -291,17 +310,20 @@ fun main(args: Array<String>) {
 - Domain is incorrect; results in '1' for prime numbers
 
 <br/>
+
 * * *
 
 stub
 
 <br/>
+
 * * *
 
 stub
 
 
 <br/>
+
 * * *
 
 ### - A program ...
@@ -322,6 +344,7 @@ Mark Priestly compares the history of the two approaches in
 [AI and the Origins of the Functional Programming Language Style](http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf)
 
 <br/>
+
 * * *
 
 ### - Symbolic computation
@@ -351,6 +374,7 @@ Lovelace arguably anticipates Gödel's use of numbers to represent logical propo
 Note also that Gödel introduces a notion of computability using recursive functions.
 
 <br/>
+
 * * *
 
 ### - An entirely different kind of power ... the ability to do recursions
@@ -360,6 +384,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
 
 <br/>
+
 * * *
 
 ### - Conditional expression
@@ -386,6 +411,7 @@ You have to pay $15 to read this one-page letter.
 *John McCarthy*
 
 <br/>
+
 * * *
 
 
@@ -407,6 +433,7 @@ fun gcd(m: Int, n: Int): Int =
 ```
 
 <br/>
+
 * * *
 
 ### - Greatest proper factor (attempt #3)
@@ -436,6 +463,7 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 ```
 
 <br/>
+
 * * *
 
 ### - An Algebraic Language
@@ -454,6 +482,7 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 [An Algebraic Language for the Manipulation of Symbolic Expressions](http://www.softwarepreservation.org/projects/LISP/MIT/AIM-001.pdf)
 
 <br/>
+
 * * *
 
 ### - map
@@ -474,6 +503,7 @@ maplist[x;f] = [null[x] → NIL;
 
 
 <br/>
+
 * * *
 
 ### - Record Handling
@@ -484,6 +514,7 @@ maplist[x;f] = [null[x] → NIL;
 
 
 <br/>
+
 * * *
 
 ### - Null
@@ -494,16 +525,19 @@ maplist[x;f] = [null[x] → NIL;
 [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
 
 <br/>
+
 * * *
 
 stub
 
 <br/>
+
 * * *
 
 stub
 
 <br/>
+
 * * *
 
 ### - Algebraic specification
@@ -514,4 +548,5 @@ None of the early papers on algebraic specification are available on the interne
 
 
 <br/>
+
 * * *
