@@ -546,7 +546,35 @@ maplist[x;f] = [null[x] → NIL;
 
 ### - ISWIM
 
-example syntax
+*"ISWIM is based on LISP but is more regular and in some ways more convenient. It may best be regarded as a palatable syntactic dress for Church's lambda calculus, and the ... known logical properties makes it suitable for us here."*
+
+
+[Proving Properties of Programs by Structural Induction](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Burstall.pdf)
+
+[The Next 700 Programming Languages](https://atlas.cs.virginia.edu/~weimer/4610/reading/p157-landin.pdf)
+
+
+```
+let rec concat(xs1,xs2) =
+   if null(xs1) then xs2
+   else let x = car(xs1) and xs3 = cdr(xs1)
+   cons(x, concat(xs3,xs2))
+```
+
+```
+// not idiomatic Kotlin
+fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
+	if (xs1.isEmpty()) xs2
+	else {
+	    val x:T = xs1.head()
+	    val xs3 = xs1.tail()
+	    listOf(x) + concat(xs3, xs2)
+	}
+```
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Peter_Landin.png/220px-Peter_Landin.png" width="300">
+
+*Peter Landin*
 
 <br/>
 
@@ -595,6 +623,16 @@ example syntax
 * * *
 
 ### - Null in Kotlin
+
+<br/>
+
+* * *
+
+### - Propositions as Types
+
+
+[The Formula-As-Types Notion of Construction](http://lecomte.al.free.fr/ressources/PARIS8_LSL/Howard80.pdf)
+
 
 <br/>
 
