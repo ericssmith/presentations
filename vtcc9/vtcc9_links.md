@@ -660,9 +660,7 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 
 ### - Algebraic specification
 
-[A Look at Algebraic Specification](http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0454-09.pdf)
 
-None of the early papers on algebraic specification are available on the internet. And in most cases, they are not available at all (practically speaking). So I can't really give credit where credit is due (with primary source). I'm linking to Zilles' summary because he was an important participant in the 70s data type specification movement and his paper is fairly readable.
 
 
 <br/>
