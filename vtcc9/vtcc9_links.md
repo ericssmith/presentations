@@ -303,8 +303,8 @@ Mark Priestly compares the history of the two approaches in
 
 [Sketch of the Analytical Engine](https://history-computer.com/Library/Sketch%20of%20Engine.pdf)
 
-
-![Lovelace](http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg)
+<br/>
+<img src="http://blogs.bodleian.ox.ac.uk/wp-content/uploads/sites/163/2015/10/AdaByron-1850-1000x1200-e1444805848856.jpg" width="300">
 
 *Ada Lovelace*
 
