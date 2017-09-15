@@ -1,7 +1,7 @@
 # Going Back to the Future
-### A brief survey of the history of programming leading up to present, illustrated with a modern industrial language, Kotlin
+#### A brief survey of the history of programming leading up to the present, illustrated with a 21st-century industrial language, Kotlin
 
-This is a living document and is subject to change and correction.
+This is a living document and is subject to correction and expansion.
 
 <br/>
 <br/>
