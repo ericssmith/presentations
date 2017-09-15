@@ -1,7 +1,7 @@
 # Going Back to the Future
-#### A little history of programming that helps explain the importance of Kotlin, a 21st-century industrial language
+#### A little history of programming that helps explain why I like Kotlin, a 21st-century industrial language
 
-This is a living document and is subject to correction and expansion.
+
 
 <br/>
 <br/>
@@ -238,6 +238,8 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
 ### - Assigning Meanings to Programs
 
+*"The basis of our approach is ... an association of a proposition with each connection in the flow of control through a program."*
+
 https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
 <br/>
@@ -314,18 +316,45 @@ fun main(args: Array<String>) {
 
 * * *
 
-stub
+### - Hoare logic
 
 <br/>
 
 * * *
 
-stub
+### - Greatest proper factor (attempt #?)
+
+(annotated with assertions)
 
 
 <br/>
 
 * * *
+
+### - I have only proved it correct
+
+
+<br/>
+
+* * *
+
+### - GPF (attempt #?)
+
+Subroutines
+
+
+<br/>
+
+* * *
+
+### - GPF automated tests
+
+
+<br/>
+
+* * *
+
+
 
 ### - A program ...
 
@@ -437,7 +466,7 @@ fun gcd(m: Int, n: Int): Int =
 
 * * *
 
-### - Greatest proper factor (attempt #3)
+### - Greatest proper factor (attempt #?)
 
 ```
 fun main(args: Array<String>) {
@@ -507,6 +536,14 @@ maplist[x;f] = [null[x] → NIL;
 
 * * *
 
+### - ISWIM
+
+example syntax
+
+<br/>
+
+* * *
+
 ### - Record Handling
 
 
@@ -518,9 +555,17 @@ maplist[x;f] = [null[x] → NIL;
 
 * * *
 
-### - Null
+### - Records in Kotlin
 
 
+<br/>
+
+* * *
+
+
+### - Null - another way
+
+(cumbersome)
 
 
 [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
@@ -529,13 +574,28 @@ maplist[x;f] = [null[x] → NIL;
 
 * * *
 
-stub
+### - Optional
+
+(in Java; discriminated union in Kotlin)
+
+(pattern matching ... to illustrate Hoare's point)
+
+
 
 <br/>
 
 * * *
 
-stub
+### - Null in Kotlin
+
+<br/>
+
+* * *
+
+### - Abstract types
+
+(implementation exposure - move mention to abstract types)
+
 
 <br/>
 
