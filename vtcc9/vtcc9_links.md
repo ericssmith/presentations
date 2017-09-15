@@ -188,11 +188,13 @@ fun main(args: Array<String>) {
 [First Draft of a Report on the EDVAC](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf)
 
 
-*Herman Goldstine & John Von Neumann*
+
 
 <img src="http://blog.hnf.de/wp-content/uploads/2017/01/IAS-Computer.jpg" width="500">
 
 *Herman Goldstine, John Von Neumann*
+
+<br/>
 
 <img src="http://www.rutherfordjournal.org/images/cope2.jpg" width="300">
 
@@ -262,7 +264,7 @@ NEXT:   7. f ⟵ f - 1
 EXIT:  10.
 ```
 
-- Inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
+- Pseudo-assembly nspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
 - Goal makes sense only for particular input set (non-Prime numbers)
 - Termination condition moved to the outside
 - Structured loops (ie *while*) become conditional jumps
@@ -354,6 +356,12 @@ Subroutines
 
 * * *
 
+### - Cyclomatic complexity
+
+
+<br/>
+
+* * *
 
 
 ### - A program ...
