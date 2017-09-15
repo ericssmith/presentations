@@ -80,7 +80,8 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ### - First successful "stored" program (Manchester SSEM)
 
-<img src="http://images.computerhistory.org/revonline/images/500004282-03-01.jpg" width="400">
+<img src="http://images.computerhistory.org/revonline/images/500004282-03-01.jpg?w=600" width="400">
+
 
 *Highest proper factor; uses subtraction instead of division*
 
