@@ -142,7 +142,7 @@ fun main(args: Array<String>) {
 
 ### - Function (extensional)
 
-<img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="600">
+<img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="700">
 
 <br/>
 
