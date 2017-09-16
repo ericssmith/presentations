@@ -639,6 +639,18 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 
 ### - Records in Kotlin
 
+```
+data class Person(val name: String, val age: Int)
+
+
+val p = Person("Eric", 55)
+
+p.age = 45
+
+println(p.name + " is " + p.age)
+
+```
+
 
 <br/>
 
