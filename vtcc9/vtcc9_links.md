@@ -441,6 +441,8 @@ Mark Priestly compares the history of the two approaches in
 
 *Ada Lovelace*
 
+<br/>
+
 Lovelace arguably anticipates Gödel's use of numbers to represent logical propositions
 
 *"The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers"* (p45)
