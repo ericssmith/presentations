@@ -304,7 +304,15 @@ fun main(args: Array<String>) {
 
 * * *
 
-### - Hoare logic
+### - Axiomatic Basis
+
+*"Computer programming is an exact science in that all the properties of a program and all the consequences of executing it in any given environment can, in principle, be found out from the text of the program itself by means of purely deductive reasoning."*
+
+[An Axiomatic Basis for Computer Programming](https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf)
+
+<br/>
+<img src="http://www.computerconservationsociety.org/resurrection/images/images48/res48k.jpg" width="300">
+*Tony Hoare*
 
 <br/>
 
