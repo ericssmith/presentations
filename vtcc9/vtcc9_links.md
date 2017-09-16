@@ -54,10 +54,10 @@ https://www.jetbrains.com/idea/download
 // build.gradle
 
 dependencies {
-    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
-    testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'com.pholser:junit-quickcheck-core:0.7'
-    compile 'com.pholser:junit-quickcheck-generators:0.7'
+	compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+	compile 'com.pholser:junit-quickcheck-core:0.7'
+	compile 'com.pholser:junit-quickcheck-generators:0.7'
 }
 ```
 
@@ -95,21 +95,21 @@ http://pholser.github.io/junit-quickcheck/site/0.7/
 
 ```
 fun main(args: Array<String>) {
-    val input = 12
-    var remainder = input
-    var factor = input - 1
+	val input = 12
+	var remainder = input
+	var factor = input - 1
 
-    while (factor > 1) {
+	while (factor > 1) {
 	while (remainder >= 0) {
-	    if (remainder == 0) {
+		if (remainder == 0) {
 		println(factor)
 		return
-	    }
-	    remainder = remainder - factor
+		}
+		remainder = remainder - factor
 	}
 	remainder = input
 	factor--
-    }
+	}
 }
 ```
 
@@ -142,7 +142,7 @@ fun main(args: Array<String>) {
 
 ### - Function (extensional)
 
-<img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="400">
+<img src="https://saylordotorg.github.io/text_intermediate-algebra/section_05/f0f80432cf5e496a04ecfd8ce9423065.png" width="600">
 
 <br/>
 
@@ -292,21 +292,21 @@ EXIT:  10.
 
 ```
 fun main(args: Array<String>) {
-    val input = 12
-    var remainder = input
-    var factor = input - 1
+	val input = 12
+	var remainder = input
+	var factor = input - 1
 
-    loop@
-    while (factor > 1) {
+	loop@
+	while (factor > 1) {
 	while (remainder > 0) {
-	    remainder = remainder - factor
+		remainder = remainder - factor
 	}
 	if (remainder == 0) break@loop
 	factor--
 	remainder = input
-    }
+	}
 
-    println(factor)
+	println(factor)
 }
 ```
 
@@ -478,23 +478,23 @@ fun gcd(m: Int, n: Int): Int =
 
 ```
 fun main(args: Array<String>) {
-    val input = 12
+	val input = 12
 
-    val result = checkFactors(input, input - 1)
+	val result = checkFactors(input, input - 1)
 
-    println(result)
+	println(result)
 }
 
 
 fun properFactor(remainder: Int, factor: Int): Boolean {
-    return if (remainder > 0) properFactor(remainder - factor, factor)
-    else remainder == 0
+	return if (remainder > 0) properFactor(remainder - factor, factor)
+	else remainder == 0
 }
 
 
 tailrec fun checkFactors(n: Int, trial: Int): Int {
-    return if (properFactor(n, trial)) trial     // is trial a proper factor of n?
-    else checkFactors(n, trial - 1) // if not, reduce trial and try again
+	return if (properFactor(n, trial)) trial     // is trial a proper factor of n?
+	else checkFactors(n, trial - 1) // if not, reduce trial and try again
 }
 
 
@@ -565,9 +565,9 @@ let rec concat(xs1,xs2) =
 fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 	if (xs1.isEmpty()) xs2
 	else {
-	    val x:T = xs1.head()
-	    val xs3 = xs1.tail()
-	    listOf(x) + concat(xs3, xs2)
+		val x:T = xs1.head()
+		val xs3 = xs1.tail()
+		listOf(x) + concat(xs3, xs2)
 	}
 ```
 
