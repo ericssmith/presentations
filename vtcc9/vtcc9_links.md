@@ -659,9 +659,11 @@ println(p.name + " is " + p.age)
 * * *
 
 
-### - Null - another way
+### - Missing references - another way
 
-(cumbersome)
+*"... my friend, Edsger Djisktra, thought the null reference was a bad idea"*
+
+*"I did know that there was a solution to this problem based on the idea of discrimination of objects belonging to a disjoint union class"*
 
 
 [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
