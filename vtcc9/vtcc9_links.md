@@ -400,6 +400,8 @@ class GPFKtTest {
 
 <br/>
 
+![Cyclomatic complexity](https://github.com/ericssmith/presentations/blob/master/vtcc9/cyclomatic_example.png)
+
 * * *
 
 
