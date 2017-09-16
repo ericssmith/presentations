@@ -105,7 +105,7 @@ fun main(args: Array<String>) {
 - Statement nesting leads to *conceptual gap* that has to be jumped over
 
 
-#### But is it correct?
+<h3 style="text-align: center">But is it correct?</h3>
 
 <br/>
 
