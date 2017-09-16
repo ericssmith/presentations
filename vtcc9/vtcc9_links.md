@@ -623,9 +623,15 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 ### - Record Handling
 
 
+*"Problems involving structured data arise in many areas of computer application ..."*
+
+*"All the relationships introduced above ... are in fact partial ... In order to meet this problem, a special __null__ value is provided for reference variables and fields."*
+
 
 [Record Handling](http://archive.computerhistory.org/resources/text/knuth_don_x4100/PDF_index/k-9-pdf/k-9-u2293-Record-Handling-Hoare.pdf)
 
+
+[Notes on Data Structuring](https://pdfs.semanticscholar.org/baf7/f3bd10c4e84d61e3b7eafbdbfb66bab367a9.pdf)
 
 <br/>
 
