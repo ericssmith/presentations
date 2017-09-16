@@ -247,7 +247,7 @@ NEXT:   7. f ⟵ f - 1
 EXIT:  10.
 ```
 
-- Pseudo-assembly nspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
+- Pseudo-assembly inspired by Hing Leung "Program Correctness" project http://bit.ly/2xrshIW
 - Goal makes sense only for particular input set (non-Prime numbers)
 - Termination condition moved to the outside
 - Structured loops (ie *while*) become conditional jumps
@@ -264,8 +264,11 @@ EXIT:  10.
 ![Flow Chart](https://github.com/ericssmith/presentations/blob/master/vtcc9/flowchart.png)
 
 
+- TODO add assertions
 - The starting and ending assertions are *assumed* to be true. The "program proof" is the assertion sequence in between.
+- Proof of termination is separate from "partial completeness" proof
 -
+- Chart done in draw.io
 
 <br/>
 
