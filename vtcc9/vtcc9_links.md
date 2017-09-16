@@ -367,7 +367,9 @@ fun gpf(input: Int): Int {
 
 <br/>
 
-* * * ### - GPF Automated tests
+* * *
+
+### - GPF Automated tests
 
 ```
 class GPFKtTest {
