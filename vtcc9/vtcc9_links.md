@@ -48,24 +48,7 @@ https://www.jetbrains.com/idea/download
 
 * * *
 
-### - Kotlin dependencies
 
-```
-// build.gradle
-
-dependencies {
-	compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
-	testCompile group: 'junit', name: 'junit', version: '4.12'
-	compile 'com.pholser:junit-quickcheck-core:0.7'
-	compile 'com.pholser:junit-quickcheck-generators:0.7'
-}
-```
-
-http://pholser.github.io/junit-quickcheck/site/0.7/
-
-<br/>
-
-* * *
 
 
 ### - Manchester Small-Scale Experimental Machine
@@ -667,7 +650,22 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 
 * * *
 
-### - QuickCheck
+### - Kotlin dependencies
+
+```
+// build.gradle
+
+dependencies {
+	compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+	testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+```
+
+<br/>
+
+* * *
+
+### - Testing against algebraic specifications
 
 <br/>
 
