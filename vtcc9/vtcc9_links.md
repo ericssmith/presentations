@@ -367,10 +367,24 @@ fun gpf(input: Int): Int {
 
 <br/>
 
-* * *
+* * * ### - GPF Automated tests
 
-### - GPF automated tests
-
+```
+class GPFKtTest {
+	@Test
+	fun checkGPF12() {
+		assertEquals(gpf(12), 6)
+	}
+	@Test
+	fun checkGPFKilburn() {
+		assertEquals(gpf(262144), 131072)
+	}
+	@Test
+	fun checkGPFPrime() {
+		assertEquals(gpf(13), 1)
+	}
+}
+```
 
 <br/>
 
