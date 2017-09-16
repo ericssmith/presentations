@@ -394,6 +394,9 @@ class GPFKtTest {
 
 ### - Cyclomatic complexity
 
+*"How to modularize a software system so that the resulting modules are both testable and maintable?"*
+
+[A Complexity Measure](http://www.literateprogramming.com/mccabe.pdf)
 
 <br/>
 
