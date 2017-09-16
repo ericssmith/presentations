@@ -1,6 +1,7 @@
 # Going Back to the Future
 #### A little history of programming to help explain why I like Kotlin, a 21st-century industrial language
 
+http://bit.ly/2wjc1K6
 
 
 <br/>
@@ -663,6 +664,8 @@ println(p.name + " is " + p.age)
 
 *"... my friend, Edsger Djisktra, thought the null reference was a bad idea"*
 
+*"If you have a null reference, then every bachelor who you represent in your object structure will seem to be married polyamoursly to the same person Nulla"*
+
 *"I did know that there was a solution to this problem based on the idea of discrimination of objects belonging to a disjoint union class"*
 
 
@@ -674,10 +677,7 @@ println(p.name + " is " + p.age)
 
 ### - Optional
 
-(in Java; discriminated union in Kotlin)
-
-(pattern matching ... to illustrate Hoare's point)
-
+Wah, wah.
 
 
 <br/>
@@ -685,6 +685,8 @@ println(p.name + " is " + p.age)
 * * *
 
 ### - Null in Kotlin
+
+TODO
 
 <br/>
 
