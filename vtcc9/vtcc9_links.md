@@ -345,9 +345,24 @@ fun main(args: Array<String>) {
 
 * * *
 
-### - GPF (attempt #?)
+### - GPF (attempt #? wrapped in subroutine)
 
-Subroutines
+```
+fun gpf(input: Int): Int {
+	var remainder = input
+	var factor = input - 1
+	loop@
+	while (factor > 1) {
+		while (remainder > 0) {
+			remainder = remainder - factor
+		}
+		if (remainder == 0) break@loop
+		factor--
+		remainder = input
+	}
+	return factor
+}
+```
 
 
 <br/>
