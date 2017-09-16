@@ -312,6 +312,7 @@ fun main(args: Array<String>) {
 
 <br/>
 <img src="http://www.computerconservationsociety.org/resurrection/images/images48/res48k.jpg" width="300">
+
 *Tony Hoare*
 
 <br/>
@@ -329,6 +330,14 @@ fun main(args: Array<String>) {
 
 ### - I have only proved it correct
 
+*"Beware of bugs in the above code; I have only proved it correct, not tried it"*
+
+[The Correspondence Between Knuth and van Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
+
+<br/>
+<img src="http://www.catonmat.net/blog/wp-content/uploads/2010/02/young-donald-knuth-ibm-650-1958.jpg" width="300">
+
+*Don Knuth*
 
 <br/>
 
