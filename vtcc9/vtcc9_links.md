@@ -465,7 +465,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 *"An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates."* (p34)
 
-http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf
+[Programming the Logic Theory Machine](http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf)
 
 <br/>
 
