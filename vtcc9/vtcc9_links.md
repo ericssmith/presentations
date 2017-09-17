@@ -644,17 +644,7 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 
 ### - Records in Kotlin
 
-```
-data class Person(val name: String, val age: Int)
-
-
-val p = Person("Eric", 55)
-
-p.age = 45
-
-println(p.name + " is " + p.age)
-
-```
+TODO
 
 
 <br/>
@@ -666,7 +656,7 @@ println(p.name + " is " + p.age)
 
 *"... my friend, Edsger Djisktra, thought the null reference was a bad idea"*
 
-*"If you have a null reference, then every bachelor who you represent in your object structure will seem to be married polyamoursly to the same person Nulla"*
+*"If you have a null reference, then every bachelor who you represent in your object structure will seem to be married polyamorously to the same person, Nulla"*
 
 *"I did know that there was a solution to this problem based on the idea of discrimination of objects belonging to a disjoint union class"*
 
