@@ -677,7 +677,7 @@ println(p.name + " is " + p.age)
 
 ### - Optional
 
-Wah, wah.
+TODO
 
 
 <br/>
@@ -705,6 +705,8 @@ TODO
 ### - Abstract types
 
 (implementation exposure - move mention to abstract types)
+
+TODO
 
 
 <br/>
@@ -747,7 +749,7 @@ dependencies {
 
 * * *
 
-### - Testing against algebraic specifications
+### - Random testing against algebraic specifications
 
 <br/>
 
