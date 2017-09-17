@@ -326,6 +326,8 @@ fun main(args: Array<String>) {
 
 (annotated with assertions)
 
+TODO
+
 
 <br/>
 
@@ -704,7 +706,7 @@ TODO
 
 ### - Abstract types
 
-(implementation exposure - move mention to abstract types)
+(hide implementation)
 
 TODO
 
@@ -715,6 +717,7 @@ TODO
 
 ### - CLU
 
+TODO
 
 <img src="http://3.bp.blogspot.com/_H1UVegJ_stI/SzYGimYMlbI/AAAAAAAAADk/qHb2q6oKC3k/w1200-h630-p-k-no-nu/barbara_liskov.jpg" width="400">
 
