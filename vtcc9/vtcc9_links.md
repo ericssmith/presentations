@@ -101,7 +101,7 @@ fun main(args: Array<String>) {
 - *val* is unchangeable
 - *var* is destructive assignment; value is destroyed elsewhere
 - 'remainder' is not remainder at first; Englishy naming not that helpful
-- Nested *println* modifies state in the environment, not in the program
+- Nested *println* modifies state in the environment, not in the program/algorithm
 - Nested return is a jump (ie GO TO)
 - Statement nesting leads to *conceptual gap* that has to be jumped over
 
