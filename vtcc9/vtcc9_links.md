@@ -18,7 +18,7 @@
 
 <br/>
 
-*COMMENTARY:*
+*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and move closer to become "one". It is such a gap that I would like to highight.*
 
 <br/>
 
@@ -30,6 +30,9 @@
 
 [Go To Statement Considered Harmful](https://edisciplinas.usp.br/pluginfile.php/1901807/mod_resource/content/1/p147-salton.pdf)
 
+<br/>
+
+*COMMENTARY: Djikstra's famous letter is an example of a cohorence problem, where the static text and the dynamic execution are conceptually separated."
 
 <br/>
 
