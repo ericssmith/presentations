@@ -3,8 +3,9 @@
 
 http://bit.ly/2wjc1K6
 
-
 <br/>
+*COMMENTARY: *
+
 <br/>
 
 * * *
@@ -12,6 +13,10 @@ http://bit.ly/2wjc1K6
 ### - Etymology for "coherence"
 
 [Coherence](http://www.etymonline.com/index.php?term=coherent)
+
+
+<br/>
+*COMMENTARY: *
 
 <br/>
 
@@ -421,7 +426,8 @@ class GPFKtTest {
 [Programming the Logic Theory Machine](http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf)
 
 
-Mark Priestly compares the history of the two approaches in
+<br/>
+*COMMENTARY: Mark Priestly compares the history of the two approaches in*
 
 [AI and the Origins of the Functional Programming Language Style](http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf)
 
