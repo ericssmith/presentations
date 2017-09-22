@@ -32,7 +32,7 @@
 
 <br/>
 
-*COMMENTARY: Djikstra's famous letter is an example of a coherence problem, where the static text and the dynamic execution are conceptually separated."*
+*COMMENTARY: Djikstra's famous letter provides an example of a coherence problem, where the static text and the dynamic execution are conceptually separated."*
 
 <br/>
 
