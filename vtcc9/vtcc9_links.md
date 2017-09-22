@@ -1,5 +1,5 @@
 # Going Back to the Future
-#### A little history of programming to help explain why I like Kotlin, a 21st-century industrial language
+#### A little history of programming to help explain why I like Kotlin, a 21st-century industrial language, using primary sources and first-hand experiments
 
 http://bit.ly/2wjc1K6
 
