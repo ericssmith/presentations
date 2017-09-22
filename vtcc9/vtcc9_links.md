@@ -18,7 +18,7 @@
 
 <br/>
 
-*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and __move closer__ to become "one". I would like to highlight the gap between computational problem solution and programming language design, especially from a historical perspective.*
+*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and __move closer__ to become "one". I would like to highlight the gap between computational problem solution and programming language design, especially from a historical perspective. Despite significant inertia over the decades, the long-term trend is to close this gap.*
 
 <br/>
 
@@ -43,7 +43,9 @@
 
 http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
-*You have to hit checkbox for "Accept License Agreement"*
+*COMMENTARY: You have to hit checkbox for "Accept License Agreement"*
+
+*
 
 <br/>
 
