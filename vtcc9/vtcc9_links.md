@@ -1,7 +1,7 @@
 # Going Back to the Future
 #### A little history of programming to help explain why I like Kotlin, a 21st-century industrial language, using primary sources and first-hand experiments
 
-http://bit.ly/2wjc1K6
+[Permalink](http://bit.ly/2wjc1K6)
 
 <br/>
 
@@ -429,6 +429,7 @@ class GPFKtTest {
 
 
 <br/>
+
 *COMMENTARY: Mark Priestly compares the history of the two approaches in*
 
 [AI and the Origins of the Functional Programming Language Style](http://www.markpriestley.net/pdfs/AIandFunctionalStyle.pdf)
