@@ -11,14 +11,14 @@
 
 * * *
 
-### - Etymology for "coherence"
+### - Coherence
 
 [Coherence Etymology](http://www.etymonline.com/index.php?term=coherent)
 
 
 <br/>
 
-*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and move closer to become "one". It is such a gap that I would like to highight.*
+*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and move closer to become "one". It is the gap between problem solution and programming language that I would like to highight.*
 
 <br/>
 
