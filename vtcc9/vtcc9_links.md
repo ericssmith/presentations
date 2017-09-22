@@ -18,7 +18,7 @@
 
 <br/>
 
-*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and __move closer__ to become "one". It is the gap between computational problem solution and programming language that I would like to highight.*
+*COMMENTARY: The root of the word is from the Latin for "to stick together". When you are going "to cohere", the objects begin separated and __move closer__ to become "one". I would like to highlight the gap between computational problem solution and programming language design, especially from a historical perspective.*
 
 <br/>
 
