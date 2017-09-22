@@ -116,7 +116,7 @@ fun main(args: Array<String>) {
 
 ### - Accepted methodology ... find more bugs and make more patches
 
-*"The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure"*
+>The accepted methodology for program construction was [...]: People would write code and make test runs, then find bugs and make patches, then find more bugs and make more patches, and so on until not being able to discover any further errors, yet always living in dread for fear that a new case would turn up on the next day and lead to a new type of failure
 
 [Robert W Floyd, In Memoriam by Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/papers/floyd.ps.gz)
 
@@ -169,7 +169,7 @@ fun main(args: Array<String>) {
 
 ### - First Draft of a Report on the EDVAC
 
-*"... a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]"*
+>... a really high speed device would be very limited in its usefulness unless it can rely on M [ie, Memory], rather than on R [ie, I/O], for all the purposes enumerated in 2.4, (a)–(h) [ie, Calculation]
 
 [First Draft of a Report on the EDVAC](http://archive.computerhistory.org/resources/text/Knuth_Don_X4100/PDF_index/k-8-pdf/k-8-u2593-Draft-EDVAC.pdf)
 
@@ -192,7 +192,7 @@ fun main(args: Array<String>) {
 
 ### - Guerilla Open Access Manifesto
 
-*"Providing scientific articles to those at elite universities in the First World, but not to children in the Global South?"*
+>Providing scientific articles to those at elite universities in the First World, but not to children in the Global South?
 
 [Guerilla Open Access Manifesto](https://archive.org/stream/GuerillaOpenAccessManifesto/Goamjuly2008_djvu.txt)
 
@@ -208,13 +208,13 @@ fun main(args: Array<String>) {
 
 ### - Coding is not a static process of translation
 
-*"Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ..."* (p.2)
+>Thus the relation of the coded instruction sequence to the mathematically conceived procedure of (numerical) solution is not a statical one, that of a translation, but highly dynamical ... (p.2)
 
-*"Our problem is then to find simple, step-by-step methods, by which these difficulties can be overcome. Since coding is not a static process of translation, but rather the technique of providing a dynamic background to control the automatic evolution of a meaning, it has to be viewed as a logical problem and one that represents a new branch of formal logics."* (p.2)
+>Our problem is then to find simple, step-by-step methods, by which these difficulties can be overcome. Since coding is not a static process of translation, but rather the technique of providing a dynamic background to control the automatic evolution of a meaning, it has to be viewed as a logical problem and one that represents a new branch of formal logics. (p.2)
 
-*"We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process."* (p.4)
+>We now proceed to analyze the procedings by which one can build up the appropriate coded sequence for a given problem — or rather for a given numerical method to solve that problem. As was pointed out in 7.1, this is not a mere question of translation (of a mathematical text into a code), but rather a question of providing a control scheme for a highly dynamical process, all parts of which may undergo repeated and relevant changes in the course of this process. (p.4)
 
-*"We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C"* (p.4)
+>We therefore propose to begin the planning of a coded sequence by laying out a schematic of the course of C through that sequence, i.e. through the required region of the selectron memory. This schematic is the __flow diagram__ of C (p.4)
 
 #### Planning and Coding of Problems for an Electronic Computing Instrument
 
@@ -226,7 +226,7 @@ https://library.ias.edu/files/pdfs/ecp/planningcodingof0103inst.pdf
 
 ### - Assigning Meanings to Programs
 
-*"The basis of our approach is ... an association of a proposition with each connection in the flow of control through a program."*
+>The basis of our approach is ... an association of a proposition with each connection in the flow of control through a program.
 
 https://classes.soe.ucsc.edu/cmps290g/Fall09/Papers/AssigningMeanings1967.pdf
 
@@ -309,7 +309,7 @@ fun main(args: Array<String>) {
 
 ### - Axiomatic Basis
 
-*"Computer programming is an exact science in that all the properties of a program and all the consequences of executing it in any given environment can, in principle, be found out from the text of the program itself by means of purely deductive reasoning."*
+>Computer programming is an exact science in that all the properties of a program and all the consequences of executing it in any given environment can, in principle, be found out from the text of the program itself by means of purely deductive reasoning.
 
 [An Axiomatic Basis for Computer Programming](https://www.cs.cmu.edu/~crary/819-f09/Hoare69.pdf)
 
@@ -335,7 +335,7 @@ TODO
 
 ### - I have only proved it correct
 
-*"Beware of bugs in the above code; I have only proved it correct, not tried it"*
+>Beware of bugs in the above code; I have only proved it correct, not tried it
 
 [The Correspondence Between Knuth and van Emde Boas](https://staff.fnwi.uva.nl/p.vanemdeboas/knuthnote.pdf)
 
@@ -397,7 +397,7 @@ class GPFKtTest {
 
 ### - Cyclomatic complexity
 
-*"How to modularize a software system so that the resulting modules are both testable and maintable?"*
+>How to modularize a software system so that the resulting modules are both testable and maintable?
 
 [A Complexity Measure](http://www.literateprogramming.com/mccabe.pdf)
 
@@ -410,13 +410,13 @@ class GPFKtTest {
 
 ### - A program ...
 
-*"A FORTRAN source program consists of a sequence of FORTRAN statements"* (p7)
+>A FORTRAN source program consists of a sequence of FORTRAN statements (p7)
 
 [The Automatic Coding System for the IBM 704 EDPM](https://www.fortran.com/FortranForTheIBM704.pdf)
 
 
 
-*"In IPL a program ... is a system of subroutines ... organized in a roughly hierarchical fashion."* (p16)
+>In IPL a program ... is a system of subroutines ... organized in a roughly hierarchical fashion. (p16)
 
 [Programming the Logic Theory Machine](http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf)
 
@@ -431,10 +431,9 @@ Mark Priestly compares the history of the two approaches in
 
 ### - Symbolic computation
 
-*"...whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all
-... numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__"* (p16)
+>...whenever numbers meaning __operations__ and not __quantities__ ... It might have been arranged that all ... numbers meaning __operations__ should have appeared on some separate portion of the engine from that which presents numerical __quantities__ (p16)
 
-*"The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__"* (p17)
+>The operating mechanism can even be thrown into action independently of any object to operate upon .... Again, it might act upon other things besides __number__ (p17)
 
 
 [Sketch of the Analytical Engine](https://history-computer.com/Library/Sketch%20of%20Engine.pdf)
@@ -448,7 +447,7 @@ Mark Priestly compares the history of the two approaches in
 
 Lovelace arguably anticipates Gödel's use of numbers to represent logical propositions
 
-*"The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers"* (p45)
+>The basic signs of the system P are now ordered in one-to-one correspondence with natural numbers (p45)
 
 [On Formally Undecidable Propositions of Principia Mathematica and Related Systems](http://jacqkrol.x10.mx/assets/articles/godel-1931.pdf)
 
@@ -463,7 +462,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 ### - An entirely different kind of power ... the ability to do recursions
 
-*"An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates."* (p34)
+>An entirely different kind of power arises from the flexibility of the hierarchy -- the ability to do recursions. An instruction may be used in its own defining subroutine, or in any of the subroutines connected with its definition, in any way whatsoever provided that the routine does not modify itself and that the entire process terminates. (p34)
 
 [Programming the Logic Theory Machine](http://bitsavers.informatik.uni-stuttgart.de/pdf/rand/ipl/P-954_Programming_The_Logic_Theory_Machine_Jan57.pdf)
 
@@ -473,7 +472,7 @@ Note also that Gödel introduces a notion of computability using recursive funct
 
 ### - Conditional expression
 
-*"The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__"*
+>The object of this note is to advocate that the IAL language be extended to include two additional additional notations: __conditional expressions__ and __recursive definitions__
 
 ```
 ( p₁ → e₁, ..., pₓ → eₓ )
@@ -552,15 +551,15 @@ tailrec fun checkFactors(n: Int, trial: Int): Int {
 
 ### - An Algebraic Language
 
-*"1.1.1 Manipulating sentences in formal languages ..."*
+>1.1.1 Manipulating sentences in formal languages ...
 
-*"1.1.2 The formal processes of mathematics such as algebraic simplification, formal differentiation and integration ..."*
+>1.1.2 The formal processes of mathematics such as algebraic simplification, formal differentiation and integration ...
 
-*"1.1.3 A compiler ... except for input and output ..."*
+>1.1.3 A compiler ... except for input and output ...
 
-*"1.1.4 Heuristic programs ..."*
+>1.1.4 Heuristic programs ...
 
-*"1.1.5 ... representing expressions whose number and length may change ..."*
+>1.1.5 ... representing expressions whose number and length may change ...
 
 
 [An Algebraic Language for the Manipulation of Symbolic Expressions](http://www.softwarepreservation.org/projects/LISP/MIT/AIM-001.pdf)
@@ -592,7 +591,7 @@ maplist[x;f] = [null[x] → NIL;
 
 ### - ISWIM
 
-*"ISWIM is based on LISP but is more regular and in some ways more convenient. It may best be regarded as a palatable syntactic dress for Church's lambda calculus, and the ... known logical properties makes it suitable for us here."*
+>ISWIM is based on LISP but is more regular and in some ways more convenient. It may best be regarded as a palatable syntactic dress for Church's lambda calculus, and the ... known logical properties makes it suitable for us here.
 
 ```
 let rec concat(xs1,xs2) =
@@ -628,9 +627,9 @@ fun <T> concat(xs1: List<T>, xs2: List<T>): List<T> =
 ### - Record Handling
 
 
-*"Problems involving structured data arise in many areas of computer application ..."*
+>Problems involving structured data arise in many areas of computer application ...
 
-*"All the relationships introduced above ... are in fact partial ... In order to meet this problem, a special __null__ value is provided for reference variables and fields."*
+>All the relationships introduced above ... are in fact partial ... In order to meet this problem, a special __null__ value is provided for reference variables and fields.
 
 
 [Record Handling](http://archive.computerhistory.org/resources/text/knuth_don_x4100/PDF_index/k-9-pdf/k-9-u2293-Record-Handling-Hoare.pdf)
@@ -654,11 +653,11 @@ TODO
 
 ### - Missing references - another way
 
-*"... my friend, Edsger Djisktra, thought the null reference was a bad idea"*
+>... my friend, Edsger Djisktra, thought the null reference was a bad idea
 
-*"If you have a null reference, then every bachelor who you represent in your object structure will seem to be married polyamorously to the same person, Nulla"*
+>If you have a null reference, then every bachelor who you represent in your object structure will seem to be married polyamorously to the same person, Nulla
 
-*"I did know that there was a solution to this problem based on the idea of discrimination of objects belonging to a disjoint union class"*
+>I did know that there was a solution to this problem based on the idea of discrimination of objects belonging to a disjoint union class
 
 
 [Null References: The Billion Dollar Mistake](https://www.infoq.com/presentations/Null-References-The-Billion-Dollar-Mistake-Tony-Hoare)
