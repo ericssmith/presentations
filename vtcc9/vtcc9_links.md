@@ -45,6 +45,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.h
 
 *COMMENTARY: As expectations increase about how much computers can do and how fast they do it, there will be increased demand for distributed processing, at both the hardware and system level. Languages and runtimes that rode the rise of HTTP will eventually give way to faster environments. Currently, the Java Virtual Machine has the greatest mindshare, broadest application, best performance, most maturity and planning of the contenders. As a host for new and future languages, it holds the most promise, despite some of its legacy short-comings.*
 
+*According to [Human Benchmark](https://www.humanbenchmark.com/tests/reactiontime), the average reaction time is 215 ms. That's the window you have for your apps to seem quick. It may be worth differentiating "premature optimization" from accommodating actual human neuron timescales.*
 
 
 <br/>
