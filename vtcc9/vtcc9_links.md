@@ -4,7 +4,8 @@
 http://bit.ly/2wjc1K6
 
 <br/>
-*COMMENTARY: *
+
+*COMMENTARY:*
 
 <br/>
 
@@ -16,7 +17,8 @@ http://bit.ly/2wjc1K6
 
 
 <br/>
-*COMMENTARY: *
+
+*COMMENTARY:*
 
 <br/>
 
